@@ -1,0 +1,66 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=ARRAY[0..206] OF LREAL	N=PosBuf	G=VAR	Com=位置バッファ
+++D=INT	N=WriteIndex	G=VAR	Com=PosBuf[]のインデックス
+++D=INT	N=CmdDelay_ScanCnt	G=VAR	Com=指令開始遅れ時間タスクカウント
+++D=INT	N=SyncDelay_ScanCnt	G=VAR	Com=同期遅れタスクカウント
+++D=LREAL	N=AccCompensateCoef	G=VAR	Com=加速度補正係数[s**2]
+++D=LREAL	N=CorrectedCmdAcc	G=VAR	Com=予測同期位置補正後指令値
+++D=INT	N=State	G=VAR	Com=状態遷移
+++D=BOOL	N=wk_CheckPredictDelay	Ord=13	G=VAR	Com=予測遅れ時間有効範囲確認
+++D=BOOL	N=wk_ActingStateEdge	Ord=13	G=VAR	Com=「実行中」状態立ち上がり
+++D=R_TRIG	N=R_TRIG_ActingState	Ord=13	G=VAR
+++D=LREAL	N=TaskPeriod	G=VAR	Com=タスク周期[ms]
+++D=UINT	N=AxisNum	G=VAR	Com=軸番号
+++D=LREAL	N=ComDelay	G=VAR	Com=通信遅れ時間[ms]
+++D=LREAL	N=SyncDelay	G=VAR	Com=同期遅れ時間[ms]
+++D=LREAL	N=CmdDelay	G=VAR	Com=指令開始遅れ時間[ms]
+++D=LREAL	N=CmdDelay_MOD	G=VAR	Com=指令開始遅れ時間タスクカウントの剰余[ms]
+++D=BOOL	N=wk_ErrorStateEdge	G=VAR	Com=「異常終了」状態立ち上がり
+++D=R_TRIG	N=R_TRIG_ErrorState	G=VAR
+++D=DINT	N=k_00	G=VAR	Com=PosBuf[]のインデックス
+++D=DINT	N=j_00	G=VAR	Com=PosBuf[]のインデックス
+++D=DINT	N=j_m1	G=VAR	Com=PosBuf[]のインデックス
+++D=DINT	N=j_m2	G=VAR	Com=PosBuf[]のインデックス
+++D=LREAL	N=PosLpDelay	G=VAR	Com=位置ループ遅れ時間[ms]
+++D=LREAL	N=VelLpDelay	G=VAR	Com=速度ループ遅れ時間[ms]
+++D=LREAL	N=PredictDelay	G=VAR	Com=予測遅れ時間[ms]
+++D=BOOL	N=wk_CheckPosLpDelay	G=VAR	Com=位置ループ遅れ時間有効範囲確認
+++D=BOOL	N=wk_CheckVelLpDelay	G=VAR	Com=速度ループ遅れ時間有効範囲確認
+++D=BOOL	N=wk_CheckSyncDelay	G=VAR	Com=同期遅れ時間有効範囲確認
+++D=LREAL	N=Dif_BufPos_PredictPos	G=VAR	Com=予測目標位置差分1
+++D=LREAL	N=Dif_BufPos_PredictPos_PreScan	G=VAR	Com=予測目標位置差分2
+++D=LREAL	N=Dif_BufPos_CmdAcc_1	G=VAR	Com=予測同期位置差分1
+++D=LREAL	N=Dif_BufPos_CmdAcc_2	G=VAR	Com=予測同期位置差分2
+++D=LREAL	N=Dif_BufPos_CmdPos	G=VAR	Com=予測同期位置差分
+++D=LREAL	N=CurrentCmdAcc_CurScan	G=VAR	Com=現在スキャン現在指令加速度
+++D=LREAL	N=CurrentCmdAcc	G=VAR	Com=現在指令加速度
+++D=LREAL	N=CurrentCmdAcc_PreScan	G=VAR	Com=前回スキャン現在指令加速度
+++D=LREAL	N=CorrectedAcc_PosLp	G=VAR	Com=位置ループ補正加速度
+++D=LREAL	N=CorrectedAcc_PosLp_PreScan	G=VAR	Com=前回スキャン位置ループ補正加速度
+++D=LREAL	N=CorrectedAcc_SpdLp	G=VAR	Com=速度ループ補正加速度
+++D=LREAL	N=CorrectedAcc_SpdLp_PreScan	G=VAR	Com=前回スキャン速度ループ加速度
+++D=LREAL	N=PosLpDelay_MOD	G=VAR
+++D=LREAL	N=FbkDelay	G=VAR	Com=フィードバック位置遅れ時間[ms]
+++D=LREAL	N=FbkDelay_MOD	G=VAR	Com=フィードバック位置遅れ時間タスクカウントの剰余[ms]
+++D=INT	N=FbkDelay_ScanCnt	G=VAR	Com=フィードバック位置遅れ時間タスクカウント
+++D=DINT	N=k_m1	G=VAR	Com=PosBuf[]のインデックス
+++D=LREAL	N=Dif_BufPos_FbkPos	G=VAR	Com=予測同期位置差分
+++D=LREAL	N=PredictPos_PreScan	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=_sAxis_REF	N=Axis	Ord=0	Const=1	G=VAR_IN_OUT	Com=軸
+++D=OM_ApplicationLib\PSC\sPSC_SYNC_POSPARAM	N=PredictSyncPosParam	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Enable	IV=False	Ord=2	G=VAR_INPUT	Com=有効
+++D=LREAL	N=CmdPos	IV=0	Ord=3	G=VAR_INPUT	Com=指令値
+++D=BOOL	N=Compensation	IV=True	Ord=4	G=VAR_INPUT	Com=補正有効
+++D=BOOL	N=Busy	Ord=5	G=VAR_OUTPUT	Com=実行中
+++D=BOOL	N=Error	Ord=6	G=VAR_OUTPUT	Com=エラー
+++D=WORD	N=ErrorID	Ord=7	G=VAR_OUTPUT	Com=エラーコード
+++D=DWORD	N=ErrorIDEx	Ord=8	G=VAR_OUTPUT	Com=拡張エラーコード
+++D=LREAL	N=CorrectedCmdPos	Ord=9	G=VAR_OUTPUT	Com=予測位置同期補正後指令値
+++D=LREAL	N=PredictPos	Ord=10	G=VAR_OUTPUT	Com=予測目標位置
+++D=LREAL	N=PredictVel	Ord=11	G=VAR_OUTPUT	Com=予測速度
+++D=LREAL	N=PredictAcc	Ord=12	G=VAR_OUTPUT	Com=予測加速度
+++D=LREAL	N=PredictPosError	Ord=13	G=VAR_OUTPUT	Com=予測位置偏差
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

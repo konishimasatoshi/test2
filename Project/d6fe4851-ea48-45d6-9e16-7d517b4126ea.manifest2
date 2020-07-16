@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Manifest manifestSchemaVersion="1" modelSchemaVersion="1">
+  <Application applicationName="sysmac" applicationVersion="0" />
+  <Solution solutionName="NSK_AIC" id="d6fe4851-ea48-45d6-9e16-7d517b4126ea" trackingId="a4c9ab27-9320-46c7-8cb2-317b4e3c8980" solutionSchemaVersion="2">
+    <ApplicationFeatures>
+      <ApplicationFeature name="V102Project" />
+      <ApplicationFeature name="AIC V1.01" />
+      <ApplicationFeature name="TSDB V1.01" />
+      <ApplicationFeature name="WAC V1.01" />
+      <ApplicationFeature name="SetUnit NY532-Z300 Ver. 1.18" />
+      <ApplicationFeature name="NexLibraryInternalUsed" />
+      <ApplicationFeature name="TransferInfoAndBuildResultsEntitiesReduced" />
+    </ApplicationFeatures>
+  </Solution>
+</Manifest>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>PSC_PredictSyncPos_V5_0_1</Name>
+      <NameSpace></NameSpace>
+      <Version>5.0.1</Version>
+      <Revision>1</Revision>
+      <LibraryId>443c1954-ea9f-461a-be6e-2a04afcc53f0</LibraryId>
+      <Author>OMRON Corporation</Author>
+      <Company>OMRON Corporation</Company>
+      <DateCreated>2017-07-06T11:56:44.2296059+09:00</DateCreated>
+      <DateModified>2019-07-24T16:52:38.9420986+09:00</DateModified>
+      <Comment></Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>OM_ApplicationLib\PSC\PSC_CalcSyncPosParam</PublicName>
+        <PublicName>OM_ApplicationLib\PSC\PSC_PredictSyncPos</PublicName>
+        <PublicName>OM_ApplicationLib\PSC\PSC_DigitalCamSwitch</PublicName>
+        <PublicName>OM_ApplicationLib\PSC\PSC_DigitalCamSwitchSingleTrack</PublicName>
+        <PublicName>OM_ApplicationLib\PSC\sPSC_DELAY_TIME</PublicName>
+        <PublicName>OM_ApplicationLib\PSC\sPSC_SYNC_POSPARAM</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames>
+        <InternalName>OM_ApplicationLib\PSC\PrivateParts\RotaryCorrection</InternalName>
+        <InternalName>OM_ApplicationLib\PSC\PrivateParts\RotaryCorrection_Dif</InternalName>
+        <InternalName>OM_ApplicationLib\PSC\PrivateParts\GetProductType</InternalName>
+        <InternalName>OM_ApplicationLib\PSC\PrivateParts\SetServoSettingsG5</InternalName>
+        <InternalName>OM_ApplicationLib\PSC\PrivateParts\GetGainSettingsG5</InternalName>
+        <InternalName>OM_ApplicationLib\PSC\PrivateParts\SetServoSettings1S</InternalName>
+        <InternalName>OM_ApplicationLib\PSC\PrivateParts\GetGainSettings1S</InternalName>
+      </InternalPartsNames>
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NJ101-1000</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>10</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.10</DisplayVersion>
+        <Packages>
+          <Package Name="Motion" Version="1.10" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>df3876a5-596d-41b9-b144-bdc3dce69413</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>false</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\Users\010180316\Desktop\資料\ｵﾑﾛﾝ技術資料\【FB】フライングトリガ　シングルトラックVer.(是正処置後_フラトガ最新)\PSC_PredictSyncPos_V5_0_1.slr</LibraryFilePath>
+      <LibraryFileRelativePath>Desktop\資料\ｵﾑﾛﾝ技術資料\【FB】フライングトリガ　シングルトラックVer.(是正処置後_フラトガ最新)\PSC_PredictSyncPos_V5_0_1.slr</LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+      <AsOldVer>false</AsOldVer>
+      <SchemaVersion>3</SchemaVersion>
+      <Parameter1>false</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

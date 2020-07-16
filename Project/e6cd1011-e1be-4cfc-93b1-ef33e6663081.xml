@@ -1,0 +1,56 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=wStatus	IV=0	G=VAR
+++D=UINT	N=ST_IDLE	IV=0	Const=1	G=VAR
+++D=UINT	N=ST_INIT	IV=1	Const=1	G=VAR
+++D=UINT	N=ST_ENBL	IV=2	Const=1	G=VAR
+++D=UINT	N=ST_FINALIZE	IV=3	Const=1	G=VAR
+++D=UINT	N=ST_COMPLETE	IV=4	Const=1	G=VAR
+++D=UINT	N=ST_ERR	IV=19	Const=1	G=VAR
+++D=UINT	N=wSubStatus	IV=1	G=VAR
+++D=UINT	N=STSUB_WAITPUSH	IV=1	Const=1	G=VAR
+++D=UINT	N=STSUB_CALCPUSH	IV=2	Const=1	G=VAR
+++D=UINT	N=STSUB_WAITPULL	IV=3	Const=1	G=VAR
+++D=UINT	N=STSUB_CALCPULL	IV=4	Const=1	G=VAR
+++D=WORD	N=cErrID	IV=16#3D15	Const=1	G=VAR
+++D=R_TRIG	N=Push_RTLG	G=VAR
+++D=F_TRIG	N=Push_FTRG	G=VAR
+++D=R_TRIG	N=Pull_RTLG	G=VAR
+++D=BOOL	N=wRepFlg	IV=False	G=VAR
+++D=DWORD	N=wErrIDEx	G=VAR
+++D=UINT	N=wFrameVar	G=VAR
+++D=ULINT	N=wT2_T1	G=VAR
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=wMonitorMode	G=VAR
+++D=ULINT	N=wStartCnt	G=VAR
+++D=ULINT	N=wTimeout	G=VAR
+++D=BOOL	N=wDetectPush	G=VAR
+++D=BOOL	N=wDetectPull	G=VAR
+++D=BOOL	N=wPullR	G=VAR
+++D=BOOL	N=wSubRepFlg	G=VAR
+++D=LREAL	N=wPushTime	G=VAR
+++D=LREAL	N=wPullTime	G=VAR
+++D=BOOL	N=wSubFrameVar	G=VAR
+++D=BOOL	N=wStartingActive	G=VAR
+++D=BOOL	N=InitCValue	G=VAR
+++D=LREAL	N=InfMini	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	Ord=0	G=VAR_INPUT
+++D=BOOL	N=Active	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Pull	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Push	Ord=3	G=VAR_INPUT
+++D=BOOL	N=FullyRetractedPos	Ord=4	G=VAR_INPUT
+++D=BOOL	N=FullyExtendedPos	Ord=5	G=VAR_INPUT
+++D=ULINT	N=CurCount	Ord=6	G=VAR_INPUT
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=MonitorMode	Ord=7	G=VAR_INPUT
+++D=UINT	N=Timeout	Ord=8	G=VAR_INPUT
+++D=BOOL	N=Enabled	Ord=9	G=VAR_OUTPUT
+++D=UINT	N=FrameVar	Ord=10	G=VAR_OUTPUT
+++D=BOOL	N=SubFrameVar	Ord=11	G=VAR_OUTPUT
+++D=OmronLib\AI_PM_Cylinder_V1_1\sSysmac_AIPM_CylinderStatus	N=Sysmac_AIPM001_CylinderStatus_VerXXYYYY	Ord=12	G=VAR_OUTPUT
+++D=ULINT	N=T2_T1	Ord=13	G=VAR_OUTPUT
+++D=BOOL	N=Finalize	Ord=14	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=15	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=16	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=17	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

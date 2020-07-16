@@ -1,0 +1,49 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OM_ApplicationLib\PSC\PrivateParts\GetProductType	N=ReadProductType	G=VAR
+++D=OM_ApplicationLib\PSC\PrivateParts\SetServoSettingsG5	N=SetAxisParaG5	G=VAR
+++D=OM_ApplicationLib\PSC\PrivateParts\GetGainSettingsG5	N=GetAxisGainG5	G=VAR
+++D=OM_ApplicationLib\PSC\PrivateParts\SetServoSettings1S	N=SetAxisPara1S	G=VAR
+++D=OM_ApplicationLib\PSC\PrivateParts\GetGainSettings1S	N=GetAxisGain1S	G=VAR
+++D=UINT	N=AxisCnt	G=VAR
+++D=ARRAY[0..255] OF BOOL	N=InternalSyncGroup	G=VAR
+++D=BOOL	N=Complete	G=VAR
+++D=OM_ApplicationLib\PSC\sPSC_SYNC_POSPARAM	N=SyncPosParams	G=VAR
+++D=UDINT	N=VenderID	IV=16#83	G=VAR
+++D=ARRAY[0..5,0..1] OF UDINT	N=ProductCode	IV=[16#01, 16#0D, 16#56, 16#5F, 16#66, 16#6E, 16#74, 16#78, 16#AB, 16#B9, 2(16#BE)]	G=VAR	IVAL=[0..5,0..1]
+++D=INT	N=State	G=VAR
+++D=BOOL	N=wk_ActingState	G=VAR
+++D=BOOL	N=wk_ActingStateEdge	G=VAR
+++D=R_TRIG	N=R_TRIG_ActingState	G=VAR
+++D=UINT	N=wk_SyncGroupNum	G=VAR
+++D=UINT	N=i	G=VAR
+++D=UINT	N=wk_MaxAXNum	G=VAR
+++D=UINT	N=wk_MC_AXNum	G=VAR
+++D=ARRAY[0..31] OF BYTE	N=wk_SyncGroup_Byte	G=VAR
+++D=LREAL	N=wk_PI	G=VAR
+++D=BOOL	N=wk_ErrorStateEdge	G=VAR
+++D=R_TRIG	N=R_TRIG_ErrorState	G=VAR
+++D=BOOL	N=wk_NormalStateEdge	G=VAR
+++D=R_TRIG	N=R_TRIG_NormalState	G=VAR
+++D=BOOL	N=wk_ConditionA	G=VAR
+++D=BOOL	N=wk_ConditionB	G=VAR
+++D=BOOL	N=wk_ConditionC	G=VAR
+++D=BOOL	N=wk_ConditionD	G=VAR
+++D=BOOL	N=wk_ConditionE	G=VAR
+++D=BOOL	N=wk_ConditionF	G=VAR
+++D=BOOL	N=wk_ConditionG	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=OM_ApplicationLib\PSC\sPSC_SYNC_POSPARAM	N=PredictSyncPosParam	Ord=0	G=VAR_IN_OUT
+++D=BOOL	N=Execute	IV=False	Ord=1	G=VAR_INPUT
+++D=ARRAY[0..3] OF LWORD	N=SyncGroup	Ord=2	G=VAR_INPUT
+++D=BOOL	N=SDOWrite	IV=True	Ord=3	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=4	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=5	G=VAR_OUTPUT
+++D=UINT	N=CurrentAxisNum	Ord=6	G=VAR_OUTPUT
+++D=UINT	N=CurrentNodeAdr	Ord=7	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=8	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=9	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=10	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=ARRAY[0..63] OF _sAXIS_REF	N=_MC_AX	Const=1	G=VAR_EXTERNAL

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <GeneralSettingsData TaskExecutionCondition="4000" ExecutionPriority="4" CycleTimeOverDetection="Warning" TimeOutValue="20000" VariableAccessTimeRatio="3">
+    <ExecutionConditionVariable VariableName="" Condition="" Constant="" />
+    <ExecutionConditionCJUnit ExternalInputUnit="">
+      <ExecutionConditionInterruptionUnit UnitNumber="" InputContact="" EdgeDetection="" />
+      <ExecutionConditionSiouCpuUnit CJUnitTaskNo="" />
+    </ExecutionConditionCJUnit>
+  </GeneralSettingsData>
+  <Programs>
+    <AssociatedProgramData ProgramName="Cylinder" InstanceName="Cylinder" IniFileTrackingId="12b784be80074e95806a435e034bceb7" StartupSetting="TRUE" SequenceNumber="1" IsDebugProgram="false" />
+    <AssociatedProgramData ProgramName="PredictiveMaintenance" InstanceName="PredictiveMaintenance" IniFileTrackingId="ae726c449ac04bfab174578ac32af28a" StartupSetting="TRUE" SequenceNumber="2" IsDebugProgram="false" />
+  </Programs>
+  <RefreshUnitIds>
+    <RefreshUnitId RefreshUnitId="ea98eb16-bfa2-4bf4-8f47-89f4b4681810" />
+    <RefreshUnitId RefreshUnitId="fad2ffca-cbc0-4a04-a341-61a2aeda8b8f" />
+    <RefreshUnitId RefreshUnitId="7eb97343-4c02-4241-8985-911fa999f901" />
+    <RefreshUnitId RefreshUnitId="4b90160e-4489-4472-b5af-e6b4fe1d210b" />
+    <RefreshUnitId RefreshUnitId="b8ac5e0f-46ab-43ac-a73d-5fc987fffc41" />
+  </RefreshUnitIds>
+  <TaskInterfaceVariables version="1" />
+</data>

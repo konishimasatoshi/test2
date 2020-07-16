@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>OmronLib_AI_PM_BallScrew_V1_1</Name>
+      <NameSpace></NameSpace>
+      <Version>1.1.0</Version>
+      <Revision>1</Revision>
+      <LibraryId>0149e655-fe03-444b-9408-9304c7b39a08</LibraryId>
+      <Author>OMRON Corporation</Author>
+      <Company>(c) OMRON Corporation 2018-2019. All Rights Reserved.</Company>
+      <DateCreated>2018-07-17T08:34:44.8537611+09:00</DateCreated>
+      <DateModified>2019-07-10T11:10:38.8441158+09:00</DateModified>
+      <Comment>This is the AI Predictive Maintenance Library (Ball Screw).
+これはAI予知保全ライブラリ(ボールねじ)です。</Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>OmronLib\AI_PM_BallScrew_V1_1\BallScrewStatus</PublicName>
+        <PublicName>OmronLib\AI_PM_BallScrew_V1_1\sMonitorMode</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames>
+        <InternalName>OmronLib\AI_PM_BallScrew_V1_1\SubParts\CalcMaxVelocity</InternalName>
+        <InternalName>OmronLib\AI_PM_BallScrew_V1_1\SubParts\CtrlOutputStatus</InternalName>
+        <InternalName>OmronLib\AI_PM_BallScrew_V1_1\sSysmac_AIPM_BallScrewStatus</InternalName>
+      </InternalPartsNames>
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NX701-Z600</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>18</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.18</DisplayVersion>
+        <Packages>
+          <Package Name="AIC" Version="1.1" />
+          <Package Name="Motion" Version="1.18" />
+          <Package Name="TSDB" Version="1.1" />
+          <Package Name="WAC" Version="1.1" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>165cd0ad-9960-4585-8034-a82865d00de6</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\OMRON\Data\Lib\AI_PM_BallScrew\OmronLib_AI_PM_BallScrew_V1_1.slr</LibraryFilePath>
+      <LibraryFileRelativePath></LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+      <AsOldVer>false</AsOldVer>
+      <SchemaVersion>3</SchemaVersion>
+      <Parameter1>true</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

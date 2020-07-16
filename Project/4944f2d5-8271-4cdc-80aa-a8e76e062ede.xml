@@ -1,0 +1,25 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=DINT(0..17)	N=DestinationState	G=VAR
+++D=BOOL	N=AlreadyInitialized	IV=False	G=VAR
+++D=ARRAY[1..31] OF OmronLib\PackML30\sPACKML_STATES_FLAG	N=tmpDisableActual	G=VAR
+++D=INT	N=tmpModeNum	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=ARRAY[1..31] OF OmronLib\PackML30\sPACKML_STATES_FLAG	N=Cfg_DisabledStates	Ord=0	G=VAR_IN_OUT
+++D=ARRAY[1..31] OF OmronLib\PackML30\sPACKML_STATES_FLAG	N=ModeSwitchableStates	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=Enable	IV=False	Ord=2	G=VAR_INPUT
+++D=DINT	N=Cmd_ModeSwitch	IV=0	Ord=3	G=VAR_INPUT
+++D=OmronLib\PackML30\sPACKML_TRANSITION_COMMAND	N=Cmd_StateTransition	Ord=4	G=VAR_INPUT
+++D=BOOL	N=Enabled	Ord=5	G=VAR_OUTPUT
+++D=ARRAY[1..31] OF OmronLib\PackML30\sPACKML_STATES_FLAG	N=Cfg_DisabledStatesActual	Ord=6	G=VAR_OUTPUT
+++D=BOOL	N=ModeChangeNotAllowed	Ord=7	G=VAR_OUTPUT
+++D=DINT	N=ModeCurrent	Ord=8	G=VAR_OUTPUT
+++D=DINT	N=ModeRequested	Ord=9	G=VAR_OUTPUT
+++D=BOOL	N=ModeChangeInProcess	Ord=10	G=VAR_OUTPUT
+++D=DINT	N=StateCurrent	Ord=11	G=VAR_OUTPUT
+++D=DINT	N=StateRequested	Ord=12	G=VAR_OUTPUT
+++D=BOOL	N=StateChangeInProcess	Ord=13	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=14	G=VAR_OUTPUT
+++D=DWORD	N=ErrorID	Ord=15	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

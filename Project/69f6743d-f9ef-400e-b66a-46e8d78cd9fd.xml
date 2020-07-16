@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <LibraryModel>
+      <Name>OmronLib_AI_PM_Cylinder_V1_1</Name>
+      <NameSpace></NameSpace>
+      <Version>1.1.0</Version>
+      <Revision>1</Revision>
+      <LibraryId>3036cf72-42e5-4f10-b46c-d67ed0e1fa25</LibraryId>
+      <Author>OMRON Corporation</Author>
+      <Company>(c) OMRON Corporation 2018-2019. All Rights Reserved.</Company>
+      <DateCreated>2018-07-10T12:35:22.9066536+09:00</DateCreated>
+      <DateModified>2019-07-10T11:06:15.1452235+09:00</DateModified>
+      <Comment>This is the AI Predictive Maintenance Library (Cylinder).
+これはAI予知保全ライブラリ(シリンダ)です。</Comment>
+      <Password></Password>
+      <AttachedFiles />
+      <AttachedFilesRelativePaths />
+      <PublicPartsNames>
+        <PublicName>OmronLib\AI_PM_Cylinder_V1_1\CylinderStatus</PublicName>
+        <PublicName>OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode</PublicName>
+      </PublicPartsNames>
+      <InternalPartsNames>
+        <InternalName>OmronLib\AI_PM_Cylinder_V1_1\SubParts\CalcPushPullTime</InternalName>
+        <InternalName>OmronLib\AI_PM_Cylinder_V1_1\SubParts\CtrlOutputValue</InternalName>
+        <InternalName>OmronLib\AI_PM_Cylinder_V1_1\sSysmac_AIPM_CylinderStatus</InternalName>
+      </InternalPartsNames>
+      <BuildDevice>
+        <Category>Controller</Category>
+        <Family>Nex</Family>
+        <FullModel>NX701-Z600</FullModel>
+        <MajorVersion>1</MajorVersion>
+        <MinorVersion>18</MinorVersion>
+        <Revision>0</Revision>
+        <DisplayVersion>1.18</DisplayVersion>
+        <Packages>
+          <Package Name="AIC" Version="1.1" />
+          <Package Name="Motion" Version="1.18" />
+          <Package Name="TSDB" Version="1.1" />
+          <Package Name="WAC" Version="1.1" />
+        </Packages>
+      </BuildDevice>
+      <DependencyId>56eb3e06-8358-4652-93d7-d00d000eb419</DependencyId>
+      <IsSource>true</IsSource>
+      <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+      <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+      <LibraryFilePath>C:\OMRON\Data\Lib\AI_PM_Cylinder\OmronLib_AI_PM_Cylinder_V1_1.slr</LibraryFilePath>
+      <LibraryFileRelativePath></LibraryFileRelativePath>
+      <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+      <AsOldVer>false</AsOldVer>
+      <SchemaVersion>3</SchemaVersion>
+      <Parameter1>true</Parameter1>
+    </LibraryModel>
+  </data>
+</data>

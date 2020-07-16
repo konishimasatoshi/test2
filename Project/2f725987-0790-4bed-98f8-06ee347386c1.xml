@@ -1,0 +1,13 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INT	N=CategoryIndex	G=VAR
+++D=INT	N=index	IV=0	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=array[0..29] of OmronLib\PackML30\sALARM	N=TargetAlarm	Ord=1	G=VAR_INPUT
+++D=INT	N=FirstOutIndex	Ord=2	G=VAR_OUTPUT
+++D=ARRAY[0..9] OF int	N=FirstOutIndexByCategory	Ord=3	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=GetFirstOutAlarmIndexes	G=RETURN

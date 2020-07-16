@@ -1,0 +1,28 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=R_TRIG	N=inst_R_TRIG	G=VAR
+++D=BOOL	N=Enable_R	G=VAR
+++D=ULINT	N=wPreCnt	G=VAR
+++D=ULINT	N=wCurrentCnt	G=VAR
+++D=DINT	N=wPreMode	G=VAR
+++D=DINT	N=wPreState	G=VAR
+++D=ARRAY[1..31] OF ULINT	N=wModeCumulative_1us	IV=[31(0)]	G=VAR
+++D=ARRAY[1..31,1..17] OF ULINT	N=wStateCumulative_1us	IV=[527(0)]	G=VAR	IVAL=[1..17,1..31]
+++D=ULINT	N=wModeCurrent_1us	G=VAR
+++D=ULINT	N=wStateCurrent_1us	G=VAR
+++D=ULINT	N=wAccTimeSinceReset	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	IV=False	Ord=0	G=VAR_INPUT
+++D=DINT	N=CurrentMode	IV=1	Ord=1	G=VAR_INPUT
+++D=DINT	N=CurrentState	IV=1	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Cmd_ResetAllDwellTimes	IV=False	Ord=3	G=VAR_INPUT
+++D=ARRAY[1..31] OF DINT	N=Sts_ModeCurrentDwellSeconds	Ord=4	G=VAR_IN_OUT
+++D=ARRAY[1..31] OF DINT	N=Sts_ModeCumulativeDwellSeconds	Ord=5	G=VAR_IN_OUT
+++D=ARRAY[1..31,1..17] OF DINT	N=Sts_StateCurrentDwellSeconds	Ord=6	G=VAR_IN_OUT
+++D=ARRAY[1..31,1..17] OF DINT	N=Sts_StateCumulativeDwellSeconds	Ord=7	G=VAR_IN_OUT
+++D=BOOL	N=Enabled	Ord=8	G=VAR_OUTPUT
+++D=DINT	N=Sts_AccTimeSinceReset	Ord=9	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=10	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=11	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

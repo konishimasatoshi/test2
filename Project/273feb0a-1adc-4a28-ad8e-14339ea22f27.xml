@@ -1,0 +1,18 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INT	N=Index	IV=0	G=VAR
+++D=INT	N=CategoryIndex	IV=0	G=VAR
+++D=INT	N=FirstOutIndex	G=VAR
+++D=ARRAY[0..9] OF int	N=FirstOutIndexByCategory	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=EN	Ord=0	RO=1	G=VAR_INPUT
+++D=BOOL	N=ENO	Ord=1	RO=1	G=VAR_OUTPUT
+++D=OmronLib\PackML30\sALARM_STATUS	N=Cfg_EMAlarmStatus	Ord=2	G=VAR_IN_OUT
+++D=BOOL	N=Cmd_Reset	Ord=3	G=VAR_INPUT
+++D=BOOL	N=Cmd_ClearFirstOutAlarms	Ord=4	G=VAR_INPUT
+++D=BOOL	N=Error	Ord=5	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=6	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
++GN=RETURN	GA=Return	GVT=ReturnGroup
+++D=BOOL	N=AlarmStatus_Update	G=RETURN

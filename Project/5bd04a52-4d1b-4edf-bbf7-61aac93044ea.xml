@@ -1,0 +1,27 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=ULINT	N=CurCount	G=VAR
+++D=OmronLib\AI_PM_BeltPulley_V1_1\SubParts\CtrlOutputStatus	N=COS_inst	G=VAR
+++D=UINT	N=FrameVar	G=VAR
+++D=BOOL	N=SubFrameVar	G=VAR
+++D=OmronLib\AI_PM_BeltPulley_V1_1\sSysmac_AIPM_BeltPulleyStatus	N=Sysmac_AIPM003_BeltPulleyStatus_Ver01001	G=VAR
+++D=UINT	N=FEOutFrame	Ord=10	G=VAR
+++D=UINT	N=MLEOutFrame	Ord=10	G=VAR
+++D=UINT	N=CurMLEOutFrame	G=VAR
+++D=OmronLib\AI_PM_BeltPulley_V1_1\SubParts\CalcTorque	N=CT_inst	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=_sAXIS_REF	N=Axis	Ord=0	Const=1	G=VAR_IN_OUT
+++D=BOOL	N=Enable	IV=False	Ord=1	G=VAR_INPUT
+++D=LREAL	N=VelocityInput	IV=0.0	Ord=2	G=VAR_INPUT
+++D=BOOL	N=ActiveInput	IV=False	Ord=3	G=VAR_INPUT
+++D=BOOL	N=AbortedInput	IV=False	Ord=4	G=VAR_INPUT
+++D=BOOL	N=ErrorInput	IV=False	Ord=5	G=VAR_INPUT
+++D=BOOL	N=ManualSubFrame	IV=False	Ord=6	G=VAR_INPUT
+++D=OmronLib\AI_PM_BeltPulley_V1_1\sMonitorMode	N=MonitorMode	Ord=7	G=VAR_INPUT
+++D=BOOL	N=Enabled	Ord=8	G=VAR_OUTPUT
+++D=BOOL	N=MonitorStatus	Ord=9	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=10	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=11	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=12	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

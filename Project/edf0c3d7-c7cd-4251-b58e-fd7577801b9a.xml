@@ -1,0 +1,36 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=EC_CoESDORead	N=ReadModeObj	G=VAR
+++D=ARRAY[0..1] OF _sSDO_ACCESS	N=ModeObj	IV=[(Index := 16#3114, Subindex := 16#00, IsCompleteAccess := False), (Index := 16#3115, Subindex := 16#00, IsCompleteAccess := False)]	G=VAR
+++D=ARRAY[0..1] OF UDINT	N=ModeDat	G=VAR
+++D=UINT	N=ModeDatCnt	G=VAR
+++D=EC_CoESDORead	N=ReadGainObj	G=VAR
+++D=ARRAY[0..4] OF _sSDO_ACCESS	N=GainObj	G=VAR
+++D=ARRAY[0..4] OF _sSDO_ACCESS	N=GainObj1	IV=[(Index := 16#3004, Subindex := 16#00, IsCompleteAccess := False), (Index := 16#3100, Subindex := 16#00, IsCompleteAccess := False), (Index := 16#3101, Subindex := 16#00, IsCompleteAccess := False), (Index := 16#3102, Subindex := 16#00, IsCompleteAccess := False), (Index := 16#3104, Subindex := 16#00, IsCompleteAccess := False)]	G=VAR
+++D=ARRAY[0..4] OF _sSDO_ACCESS	N=GainObj2	IV=[(Index := 16#3004, Subindex := 16#00, IsCompleteAccess := False), (Index := 16#3105, Subindex := 16#00, IsCompleteAccess := False), (Index := 16#3106, Subindex := 16#00, IsCompleteAccess := False), (Index := 16#3107, Subindex := 16#00, IsCompleteAccess := False), (Index := 16#3108, Subindex := 16#00, IsCompleteAccess := False)]	G=VAR
+++D=ARRAY[0..4] OF INT	N=GainDat	G=VAR
+++D=UINT	N=GainDatCnt	G=VAR
+++D=UINT	N=InternalNodeAdr	G=VAR
+++D=INT	N=State	G=VAR
+++D=BOOL	N=wk_ActingState	G=VAR
+++D=BOOL	N=wk_ActingStateEdge	G=VAR
+++D=R_TRIG	N=R_TRIG_ActingState	G=VAR
+++D=BOOL	N=wk_ErrorStateEdge	G=VAR
+++D=R_TRIG	N=R_TRIG_ErrorState	G=VAR
+++D=BOOL	N=wk_NormalStateEdge	G=VAR
+++D=R_TRIG	N=R_TRIG_NormalState	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	IV=False	Ord=0	G=VAR_INPUT
+++D=UINT	N=NodeAdr	IV=0	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=4	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=5	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=6	G=VAR_OUTPUT
+++D=INT	N=InertiaRatio	Ord=7	G=VAR_OUTPUT
+++D=INT	N=PosLpGain	Ord=8	G=VAR_OUTPUT
+++D=INT	N=SpdLpGain	Ord=9	G=VAR_OUTPUT
+++D=INT	N=SpdLpIntegTimeConst	Ord=10	G=VAR_OUTPUT
+++D=INT	N=TorqueCmdFltTimeConst	Ord=11	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

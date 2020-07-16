@@ -1,0 +1,97 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INT	N=State	G=VAR	Com=状態遷移
+++D=LREAL	N=TaskPeriod	G=VAR	Com=タスク周期[ms]
+++D=LREAL	N=SystemDelayTime	IV=0.638	G=VAR	Com=システムの応答遅れ時間（定数）[ms]
+++D=LREAL	N=ComDelay	G=VAR	Com=通信遅れ時間[ms]
+++D=ARRAY[0..15] OF LREAL	N=OnOutputDelay	G=VAR	Com=On時出力遅れ時間[ms]
+++D=ARRAY[0..15] OF LREAL	N=OffOutputDelay	G=VAR	Com=Off時出力遅れ時間[ms]
+++D=INT	N=ScanCnt_wk_OnOutputDelay	G=VAR
+++D=INT	N=ScanCnt_wk_OffOutputDelay	G=VAR
+++D=UINT	N=TrN	G=VAR
+++D=LREAL	N=wk_OutputDelay	G=VAR	Com=OutputDelayの最大値
+++D=LREAL	N=SyncDelay	G=VAR	Com=同期遅れ時間[ms]
+++D=INT	N=ScanCnt_SyncDelay	G=VAR
+++D=BOOL	N=wk_OutputDelayCheck	G=VAR	Com=OutputDelayとSyncDelayの比較結果
+++D=BOOL	N=wk_CheckSyncDelay	G=VAR	Com=同期遅れ時間有効範囲確認
+++D=ARRAY[0..206] OF LREAL	N=PosBuf	G=VAR	Com=位置バッファ
+++D=BOOL	N=wk_CheckRingCounter	G=VAR
+++D=BOOL	N=wk_CheckTrackNumber	G=VAR
+++D=UINT	N=SwN	G=VAR
+++D=BOOL	N=wk_CheckFirstOnPosition	G=VAR
+++D=BOOL	N=wk_CheckLastOnPosition	G=VAR
+++D=BOOL	N=wk_CheckAxisDirection	G=VAR
+++D=BOOL	N=wk_CheckCamSwitchMode	G=VAR
+++D=BOOL	N=wk_CheckDuration	G=VAR
+++D=BOOL	N=wk_CheckOnCompensation	G=VAR
+++D=BOOL	N=wk_CheckOffCompensation	G=VAR
+++D=BOOL	N=wk_CheckNumberOfTrackNum	G=VAR
+++D=BOOL	N=wk_PassJudgEdge	G=VAR
+++D=INT	N=WriteIndex	G=VAR	Com=PosBuf[]のインデックス
+++D=R_TRIG	N=R_TRIG_PassingJudgment	G=VAR
+++D=ARRAY[0..1] OF Byte	N=wk_EnableMask_Byte	G=VAR
+++D=ARRAY[0..15] OF Bool	N=wk_EnableOut_Array	G=VAR
+++D=ARRAY[0..15,0..15] OF BOOL	N=wk_TriggerOn	G=VAR
+++D=ARRAY[0..15,0..15] OF BOOL	N=wk_TriggerOnEdge	G=VAR
+++D=ARRAY[0..15,0..15] OF BOOL	N=wk_TriggerOff	G=VAR
+++D=ARRAY[0..15,0..15] OF BOOL	N=wk_TriggerOffEdge	G=VAR
+++D=ARRAY[0..15] OF LREAL	N=wk_OnPassJudgTime	G=VAR
+++D=ARRAY[0..15] OF INT	N=ScanCnt_OnPassJudgTime	G=VAR
+++D=ARRAY[0..15] OF LREAL	N=wk_OffPassJudgTime	G=VAR
+++D=ARRAY[0..15] OF Int	N=ScanCnt_OffPassJudgTime	G=VAR
+++D=ARRAY[0..15] OF DINT	N=OnPassJudgIndex	G=VAR
+++D=ARRAY[0..15] OF DINT	N=OnPassJudgIndex_Pre	G=VAR
+++D=ARRAY[0..15] OF DINT	N=OffPassJudgIndex	G=VAR
+++D=ARRAY[0..15] OF DINT	N=OffPassJudgIndex_Pre	G=VAR
+++D=ARRAY[0..15,0..15] OF LREAL	N=OnInterpolationTime	G=VAR	Com=On時補間時間[ns]
+++D=ARRAY[0..15,0..15] OF LREAL	N=OffInterpolationTime	G=VAR	Com=Off時補間時間[ns]
+++D=ARRAY[0..15,0..15] OF _sCAMSWITCH_REF	N=Data	G=VAR
+++D=ARRAY[0..15] OF UINT	N=DataSwitchNum	G=VAR
+++D=ARRAY[0..15,0..15] OF LREAL	N=FirstOnPos_Def	G=VAR
+++D=ARRAY[0..15,0..15] OF LREAL	N=LastOnPos_Def	G=VAR
+++D=ARRAY[0..15,0..15] OF LREAL	N=OnPosBuf_Def	G=VAR
+++D=ARRAY[0..15,0..15] OF LREAL	N=OffPosBuf_Def	G=VAR
+++D=ARRAY[0..15,0..15] OF LREAL	N=TriggerOn_Def	G=VAR
+++D=ARRAY[0..15,0..15] OF LREAL	N=TriggerOff_Def	G=VAR
+++D=BOOL	N=wk_FirstOnPosCheckNan	G=VAR
+++D=BOOL	N=wk_FirstOnPosCheckPosInfinite	G=VAR
+++D=BOOL	N=wk_FirstOnPosCheckNegInfinite	G=VAR
+++D=BOOL	N=wk_LastOnPosCheckNegInfinite	G=VAR
+++D=BOOL	N=wk_LastOnPosCheckPosInfinite	G=VAR
+++D=BOOL	N=wk_LastOnPosCheckNan	G=VAR
+++D=ARRAY[0..15] OF LREAL	N=wk_OnOutputDelay	G=VAR
+++D=ARRAY[0..15] OF LREAL	N=wk_OffOutputDelay	G=VAR
+++D=LREAL	N=wk_SyncDelay	G=VAR
+++D=UINT	N=wk_ErrorSwN	G=VAR
+++D=ARRAY[0..15,0..15] OF BOOL	N=wk_TriggerOnSub	G=VAR
+++D=ARRAY[0..15,0..15] OF BOOL	N=wk_TriggerOffSub	G=VAR
+++D=BOOL	N=wk_NoError	G=VAR
+++D=ARRAY[0..15] OF UINT	N=SwDisableNum	G=VAR
+++D=BOOL	N=wk_Direction	G=VAR
+++D=BOOL	N=test_posi1	G=VAR
+++D=BOOL	N=test_posi2	G=VAR
+++D=BOOL	N=test_nega1	G=VAR
+++D=BOOL	N=test_nega2	G=VAR
+++D=ARRAY[0..15,0..15] OF LREAL	N=FirstOnPos_PreDef	G=VAR
+++D=BOOL	N=wk_VelStop_TriggerOn	G=VAR
+++D=BOOL	N=wk_VelStop_TriggerOff	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=_sAXIS_REF	N=Axis	Ord=0	Const=1	G=VAR_IN_OUT	Com=軸
+++D=ARRAY[0..255] OF _sCAMSWITCH_REF	N=Switches	Ord=1	G=VAR_IN_OUT	Com=スイッチ
+++D=ARRAY[0..15] OF _sOUTPUT_REF	N=Outputs	Ord=2	G=VAR_IN_OUT	Com=出力信号
+++D=ARRAY[0..15] OF _sTRACK_REF	N=TrackOption	Ord=3	G=VAR_IN_OUT	Com=トラックオプション
+++D=OM_ApplicationLib\PSC\sPSC_SYNC_POSPARAM	N=PredictSyncPosParam	Ord=4	G=VAR_IN_OUT	Com=補正パラメータ
+++D=BOOL	N=Enable	IV=False	Ord=5	G=VAR_INPUT	Com=有効
+++D=WORD	N=EnableMask	IV=16#0000	Ord=6	G=VAR_INPUT	Com=トラック有効
+++D=_sMC_SOURCE	N=ValueSource	Ord=7	G=VAR_INPUT	Com=入力情報
+++D=ULINT	N=SyncOutTime	IV=0	Ord=8	G=VAR_INPUT	Com=同期出力時刻情報
+++D=LREAL	N=CmdPos	IV=0.0	Ord=9	G=VAR_INPUT	Com=指令値
+++D=BOOL	N=InOperation	Ord=10	G=VAR_OUTPUT	Com=作動中
+++D=BOOL	N=Busy	Ord=11	G=VAR_OUTPUT	Com=実行中
+++D=BOOL	N=Error	Ord=12	G=VAR_OUTPUT	Com=エラー
+++D=WORD	N=ErrorID	Ord=13	G=VAR_OUTPUT	Com=エラーコート
+++D=DWORD	N=ErrorIDEx	Ord=14	G=VAR_OUTPUT	Com=拡張エラーコード
+++D=LREAL	N=OutputDelayTime	Ord=15	G=VAR_OUTPUT	Com=出力遅れ時間
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=_sCOMMON_REF	N=_MC_COM	Const=1	G=VAR_EXTERNAL

@@ -1,0 +1,22 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=TON	N=ExtendTimer	G=VAR	Com=伸び指示出力タイマ$t伸び指示タイマ
+++D=TIME	N=ExtendTime	G=VAR	Com=伸び指示出力時間$t伸び指示時間
+++D=TON	N=RetractTimer	G=VAR	Com=縮み指示出力タイマ$t縮み指示タイマ
+++D=TIME	N=RetractTime	G=VAR	Com=縮み指示出力時間$t縮み指示時間
+++D=TIME	N=WaitTime1	G=VAR	Com=伸び端ウェイト時間
+++D=TIME	N=WaitTime2	G=VAR	Com=縮み端ウェイト時間
+++D=BOOL	N=Waiting1	G=VAR	Com=伸び端ウェイト中
+++D=BOOL	N=Waiting2	G=VAR	Com=縮み端ウェイト中
+++D=TON	N=WaitTimer1	G=VAR	Com=伸び端ウェイトタイマ
+++D=TON	N=WaitTimer2	G=VAR	Com=縮み端ウェイトタイマ
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=OUT_AirCylinder01_FullyExtend	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder01_FullyRetract	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder01_FullyExtended	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder01_FullyRetracted	G=VAR_EXTERNAL
+++D=BOOL	N=AirCylinder01_Enable	G=VAR_EXTERNAL
+++D=BOOL	N=AirCylinder01_CycleStart	G=VAR_EXTERNAL
+++D=BOOL	N=AirCylinder01_CycleOperating	G=VAR_EXTERNAL
+++D=BOOL	N=AirCylinder01_CycleStop	G=VAR_EXTERNAL

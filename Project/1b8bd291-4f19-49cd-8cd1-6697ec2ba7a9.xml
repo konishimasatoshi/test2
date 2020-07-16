@@ -1,0 +1,31 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=INT	N=OutIndex	G=VAR
+++D=INT	N=Index	G=VAR
+++D=BOOL	N=AddFlag	G=VAR
+++D=RecSort	N=AlarmSort_ByTime	G=VAR
+++D=INT	N=ProcessNo	IV=0	G=VAR
+++D=RecSort	N=AlarmSort_ByGroup	G=VAR
+++D=BOOL	N=wEnableGroupingByCategory	G=VAR
+++D=BOOL	N=wEnableAscendingTimeSort	G=VAR
+++D=ARRAY[0..100] OF OmronLib\PackML30\sALARM	N=wAlarms	G=VAR
+++D=USINT	N=CategoryNo	G=VAR
+++D=BOOL	N=TrigExecute	G=VAR
+++D=R_TRIG	N=R_TRIG_Execute	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	Ord=0	G=VAR_INPUT
+++D=OmronLib\PackML30\sALARM_SUMMATION	N=InputAlarmSummation	Ord=1	G=VAR_IN_OUT
+++D=BOOL	N=EnableActiveStatusFilter	IV=False	Ord=2	G=VAR_INPUT
+++D=BOOL	N=EnableCategoryFilter	IV=False	Ord=3	G=VAR_INPUT
+++D=USINT	N=CategoryToFilter	IV=0	Ord=4	G=VAR_INPUT
+++D=BOOL	N=EnableAscendingTimeSort	IV=False	Ord=5	G=VAR_INPUT
+++D=BOOL	N=EnableGroupingByCategory	IV=False	Ord=6	G=VAR_INPUT
+++D=ARRAY[0..100] OF OmronLib\PackML30\sALARM	N=Output	Ord=7	G=VAR_IN_OUT
+++D=BOOL	N=Done	Ord=8	G=VAR_OUTPUT
+++D=INT	N=SizeOfOutputAlarms	Ord=9	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=10	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=11	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=12	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=13	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

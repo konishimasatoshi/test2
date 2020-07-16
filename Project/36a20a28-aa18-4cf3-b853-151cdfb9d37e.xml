@@ -1,0 +1,37 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=EC_CoESDORead	N=ReadModeObj	G=VAR
+++D=ARRAY[0..0] OF _sSDO_ACCESS	N=ModeObj	IV=[(Index := 16#3212, Subindex := 16#01, IsCompleteAccess := False)]	G=VAR
+++D=ARRAY[0..0] OF UDINT	N=ModeDat	G=VAR
+++D=UINT	N=ModeDatCnt	G=VAR
+++D=EC_CoESDORead	N=ReadGainObj	G=VAR
+++D=ARRAY[0..5] OF _sSDO_ACCESS	N=GainObj	G=VAR
+++D=ARRAY[0..5] OF _sSDO_ACCESS	N=GainObj1	IV=[(Index := 16#3000, Subindex := 16#03, IsCompleteAccess := False), (Index := 16#3001, Subindex := 16#01, IsCompleteAccess := False), (Index := 16#3213, Subindex := 16#01, IsCompleteAccess := False), (Index := 16#3223, Subindex := 16#01, IsCompleteAccess := False), (Index := 16#3223, Subindex := 16#02, IsCompleteAccess := False), (Index := 16#3233, Subindex := 16#02, IsCompleteAccess := False)]	G=VAR
+++D=ARRAY[0..5] OF _sSDO_ACCESS	N=GainObj2	IV=[(Index := 16#3000, Subindex := 16#03, IsCompleteAccess := False), (Index := 16#3001, Subindex := 16#01, IsCompleteAccess := False), (Index := 16#3214, Subindex := 16#01, IsCompleteAccess := False), (Index := 16#3224, Subindex := 16#01, IsCompleteAccess := False), (Index := 16#3224, Subindex := 16#02, IsCompleteAccess := False), (Index := 16#3234, Subindex := 16#02, IsCompleteAccess := False)]	G=VAR
+++D=ARRAY[0..5] OF DINT	N=GainDat	G=VAR
+++D=UINT	N=GainDatCnt	G=VAR
+++D=UINT	N=InternalNodeAdr	G=VAR
+++D=INT	N=State	G=VAR
+++D=BOOL	N=wk_ActingState	G=VAR
+++D=BOOL	N=wk_ActingStateEdge	G=VAR
+++D=R_TRIG	N=R_TRIG_ActingState	G=VAR
+++D=BOOL	N=wk_ErrorStateEdge	G=VAR
+++D=R_TRIG	N=R_TRIG_ErrorState	G=VAR
+++D=BOOL	N=wk_NormalStateEdge	G=VAR
+++D=R_TRIG	N=R_TRIG_NormalState	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Execute	IV=False	Ord=0	G=VAR_INPUT
+++D=UINT	N=NodeAdr	IV=0	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Done	Ord=2	G=VAR_OUTPUT
+++D=BOOL	N=Busy	Ord=3	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=4	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=5	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=6	G=VAR_OUTPUT
+++D=DINT	N=ControlMethod	Ord=7	G=VAR_OUTPUT
+++D=DINT	N=InertiaRatio	Ord=8	G=VAR_OUTPUT
+++D=DINT	N=PosLpPGain	Ord=9	G=VAR_OUTPUT
+++D=DINT	N=SpdLpPGain	Ord=10	G=VAR_OUTPUT
+++D=DINT	N=SpdLpIGain	Ord=11	G=VAR_OUTPUT
+++D=DINT	N=TorqueCmdFltFreq	Ord=12	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

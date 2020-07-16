@@ -1,0 +1,30 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=OmronLib\AI_PM_Cylinder_V1_1\CylinderStatus	N=AirCylinder01_StatusFB	G=VAR
+++D=BOOL	N=wk_TSDB_CmdExe	G=VAR	Com=TSDBサービスコマンド実行$t時系列DBコマンド実行
+++D=INT	N=wk_TSDBCmd	G=VAR	Com=TSDBサービスコマンド$t時系列DBコマンド
+++D=TimeSeries_ControlService	N=FB_TimeSeries_ControlService	G=VAR
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
+++D=BOOL	N=_FE_Enable	G=VAR_EXTERNAL
+++D=BOOL	N=_MLE_Enable	G=VAR_EXTERNAL
+++D=ARRAY[0..31] OF BOOL	N=_TSDB_CreateCmd	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder01_FullyRetract	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder01_FullyExtend	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder01_FullyRetracted	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder01_FullyExtended	G=VAR_EXTERNAL
+++D=BOOL	N=AirCylinder01_Enable	G=VAR_EXTERNAL
+++D=BOOL	N=AirCylinder01_CycleStart	G=VAR_EXTERNAL
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=AirCylinder01_MonitorMode	G=VAR_EXTERNAL
+++D=UINT	N=AirCylinder01_TimeOut	G=VAR_EXTERNAL
+++D=BOOL	N=AirCylinder01_MonitorStatus	G=VAR_EXTERNAL
+++D=BOOL	N=AirCylinder01_Active	G=VAR_EXTERNAL
+++D=BOOL	N=AirCylinder01_StatusEnabled	G=VAR_EXTERNAL
+++D=BOOL	N=AirCylinder01_StatusError	G=VAR_EXTERNAL
+++D=WORD	N=AirCylinder01_StatusErrorID	G=VAR_EXTERNAL
+++D=DWORD	N=AirCylinder01_StatusErrorIDEx	G=VAR_EXTERNAL
+++D=ARRAY[0..31] OF BOOL	N=TSDB_CreateCmd	G=VAR_EXTERNAL
+++D=sTSDB_CMD	N=TSDB_Cmd	G=VAR_EXTERNAL
+++D=sAI_FUNC_CMD	N=FE_Cmd	G=VAR_EXTERNAL
+++D=sAI_FUNC_CMD	N=MLE_Cmd	G=VAR_EXTERNAL
+++D=BOOL	N=AirCylinder01_CycleOperating	G=VAR_EXTERNAL

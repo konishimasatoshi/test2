@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <ReferredLibrariesModel>
+      <ReferredLibraries>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>OmronLib_PackML30_V1_0</Name>
+              <NameSpace></NameSpace>
+              <Version>1.0.3</Version>
+              <Revision>1</Revision>
+              <LibraryId>fbc9ac33-1e15-4a42-b20d-60abf4039a47</LibraryId>
+              <Author>OMRON Corporation</Author>
+              <Company>(c) OMRON Corporation 2016-2017. All Rights Reserved.</Company>
+              <DateCreated>2016-01-28T17:29:54.3907495+09:00</DateCreated>
+              <DateModified>2017-07-31T13:42:17.2860828+09:00</DateModified>
+              <Comment>This is the library that aim at building system confortable to PackML easily.
+ユーザがPackMLに準拠したシステムを容易に構築可能とすることを目的としたライブラリです。</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>OmronLib\PackML30\AlarmStatus_Update</PublicName>
+                <PublicName>OmronLib\PackML30\AlarmSummation_Add</PublicName>
+                <PublicName>OmronLib\PackML30\PMLTransitionCmd_ResetAll</PublicName>
+                <PublicName>OmronLib\PackML30\PMLTransitionCmd_ResetAllCmdSetAllSC</PublicName>
+                <PublicName>OmronLib\PackML30\PMLTransitionCmd_Summarize</PublicName>
+                <PublicName>OmronLib\PackML30\PMLTransitionCmd_SummarizePackTagCtrlCmd</PublicName>
+                <PublicName>OmronLib\PackML30\PMLCtrlCmd_Reset</PublicName>
+                <PublicName>OmronLib\PackML30\PMLCtrlCmd_Start</PublicName>
+                <PublicName>OmronLib\PackML30\PMLCtrlCmd_Stop</PublicName>
+                <PublicName>OmronLib\PackML30\PMLCtrlCmd_Hold</PublicName>
+                <PublicName>OmronLib\PackML30\PMLCtrlCmd_Unhold</PublicName>
+                <PublicName>OmronLib\PackML30\PMLCtrlCmd_Suspend</PublicName>
+                <PublicName>OmronLib\PackML30\PMLCtrlCmd_Unsuspend</PublicName>
+                <PublicName>OmronLib\PackML30\PMLCtrlCmd_Abort</PublicName>
+                <PublicName>OmronLib\PackML30\PMLCtrlCmd_Clear</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsClearing</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsStopped</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsStarting</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsIdle</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsSuspended</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsExecute</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsStopping</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsAborting</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsAborted</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsHolding</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsHeld</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsUnholding</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsSuspending</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsUnsuspending</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsResetting</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsCompleting</PublicName>
+                <PublicName>OmronLib\PackML30\PMLState_IsComplete</PublicName>
+                <PublicName>OmronLib\PackML30\DT_TO_PackTagDINTarray</PublicName>
+                <PublicName>OmronLib\PackML30\Alarm</PublicName>
+                <PublicName>OmronLib\PackML30\PackMLModeStateTimer</PublicName>
+                <PublicName>OmronLib\PackML30\AlarmSummation_SortFilter</PublicName>
+                <PublicName>OmronLib\PackML30\PackMLModeStateMachine</PublicName>
+                <PublicName>OmronLib\PackML30\sEVENT_CFG</PublicName>
+                <PublicName>OmronLib\PackML30\sALARM</PublicName>
+                <PublicName>OmronLib\PackML30\sALARM_STATUS</PublicName>
+                <PublicName>OmronLib\PackML30\sALARM_SUMMATION</PublicName>
+                <PublicName>OmronLib\PackML30\sPACKML_TRANSITION_COMMAND</PublicName>
+                <PublicName>OmronLib\PackML30\sPACKML_STATES_FLAG</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>OmronLib\PackML30\SubParts\AlarmSummation_Clear</InternalName>
+                <InternalName>OmronLib\PackML30\SubParts\AlarmStatus_Reset</InternalName>
+                <InternalName>OmronLib\PackML30\SubParts\Alarm_Clear</InternalName>
+                <InternalName>OmronLib\PackML30\SubParts\GetFirstOutAlarmIndexes</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NJ301-1100</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>1</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.01</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.1" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>39dcb9ad-8bca-49a9-852a-fd5fbf9518a1</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\OMRON\Data\Lib\Packaging\OmronLib_PackML30_V1_0.slr</LibraryFilePath>
+              <LibraryFileRelativePath></LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>true</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>PSC_PredictSyncPos_V5_0_1</Name>
+              <NameSpace></NameSpace>
+              <Version>5.0.1</Version>
+              <Revision>1</Revision>
+              <LibraryId>443c1954-ea9f-461a-be6e-2a04afcc53f0</LibraryId>
+              <Author>OMRON Corporation</Author>
+              <Company>OMRON Corporation</Company>
+              <DateCreated>2017-07-06T11:56:44.2296059+09:00</DateCreated>
+              <DateModified>2019-07-24T16:52:38.9420986+09:00</DateModified>
+              <Comment></Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>OM_ApplicationLib\PSC\PSC_CalcSyncPosParam</PublicName>
+                <PublicName>OM_ApplicationLib\PSC\PSC_PredictSyncPos</PublicName>
+                <PublicName>OM_ApplicationLib\PSC\PSC_DigitalCamSwitch</PublicName>
+                <PublicName>OM_ApplicationLib\PSC\PSC_DigitalCamSwitchSingleTrack</PublicName>
+                <PublicName>OM_ApplicationLib\PSC\sPSC_DELAY_TIME</PublicName>
+                <PublicName>OM_ApplicationLib\PSC\sPSC_SYNC_POSPARAM</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>OM_ApplicationLib\PSC\PrivateParts\RotaryCorrection</InternalName>
+                <InternalName>OM_ApplicationLib\PSC\PrivateParts\RotaryCorrection_Dif</InternalName>
+                <InternalName>OM_ApplicationLib\PSC\PrivateParts\GetProductType</InternalName>
+                <InternalName>OM_ApplicationLib\PSC\PrivateParts\SetServoSettingsG5</InternalName>
+                <InternalName>OM_ApplicationLib\PSC\PrivateParts\GetGainSettingsG5</InternalName>
+                <InternalName>OM_ApplicationLib\PSC\PrivateParts\SetServoSettings1S</InternalName>
+                <InternalName>OM_ApplicationLib\PSC\PrivateParts\GetGainSettings1S</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NJ101-1000</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>10</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.10</DisplayVersion>
+                <Packages>
+                  <Package Name="Motion" Version="1.10" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>df3876a5-596d-41b9-b144-bdc3dce69413</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>false</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\Users\010180316\Desktop\資料\ｵﾑﾛﾝ技術資料\【FB】フライングトリガ　シングルトラックVer.(是正処置後_フラトガ最新)\PSC_PredictSyncPos_V5_0_1.slr</LibraryFilePath>
+              <LibraryFileRelativePath>Desktop\資料\ｵﾑﾛﾝ技術資料\【FB】フライングトリガ　シングルトラックVer.(是正処置後_フラトガ最新)\PSC_PredictSyncPos_V5_0_1.slr</LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>false</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>OmronLib_AI_PM_BallScrew_V1_1</Name>
+              <NameSpace></NameSpace>
+              <Version>1.1.0</Version>
+              <Revision>1</Revision>
+              <LibraryId>0149e655-fe03-444b-9408-9304c7b39a08</LibraryId>
+              <Author>OMRON Corporation</Author>
+              <Company>(c) OMRON Corporation 2018-2019. All Rights Reserved.</Company>
+              <DateCreated>2018-07-17T08:34:44.8537611+09:00</DateCreated>
+              <DateModified>2019-07-10T11:10:38.8441158+09:00</DateModified>
+              <Comment>This is the AI Predictive Maintenance Library (Ball Screw).
+これはAI予知保全ライブラリ(ボールねじ)です。</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>OmronLib\AI_PM_BallScrew_V1_1\BallScrewStatus</PublicName>
+                <PublicName>OmronLib\AI_PM_BallScrew_V1_1\sMonitorMode</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>OmronLib\AI_PM_BallScrew_V1_1\SubParts\CalcMaxVelocity</InternalName>
+                <InternalName>OmronLib\AI_PM_BallScrew_V1_1\SubParts\CtrlOutputStatus</InternalName>
+                <InternalName>OmronLib\AI_PM_BallScrew_V1_1\sSysmac_AIPM_BallScrewStatus</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NX701-Z600</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>18</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.18</DisplayVersion>
+                <Packages>
+                  <Package Name="AIC" Version="1.1" />
+                  <Package Name="Motion" Version="1.18" />
+                  <Package Name="TSDB" Version="1.1" />
+                  <Package Name="WAC" Version="1.1" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>165cd0ad-9960-4585-8034-a82865d00de6</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\OMRON\Data\Lib\AI_PM_BallScrew\OmronLib_AI_PM_BallScrew_V1_1.slr</LibraryFilePath>
+              <LibraryFileRelativePath></LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>true</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>OmronLib_AI_PM_BeltPulley_V1_1</Name>
+              <NameSpace></NameSpace>
+              <Version>1.1.0</Version>
+              <Revision>1</Revision>
+              <LibraryId>f27946ec-cb46-4cf9-9efd-ffec496a7ea7</LibraryId>
+              <Author>OMRON Corporation</Author>
+              <Company>(c) OMRON Corporation 2018-2019. All Rights Reserved.</Company>
+              <DateCreated>2018-07-19T09:25:01.8930852+09:00</DateCreated>
+              <DateModified>2019-07-10T11:15:56.2144887+09:00</DateModified>
+              <Comment>This is the AI Predictive Maintenance Library (Belt Pulley).
+これはAI予知保全ライブラリ(ベルト＆プーリ)です。</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>OmronLib\AI_PM_BeltPulley_V1_1\BeltPulleyStatus</PublicName>
+                <PublicName>OmronLib\AI_PM_BeltPulley_V1_1\sMonitorMode</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>OmronLib\AI_PM_BeltPulley_V1_1\SubParts\CalcTorque</InternalName>
+                <InternalName>OmronLib\AI_PM_BeltPulley_V1_1\SubParts\CtrlOutputStatus</InternalName>
+                <InternalName>OmronLib\AI_PM_BeltPulley_V1_1\sSysmac_AIPM_BeltPulleyStatus</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NX701-Z600</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>18</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.18</DisplayVersion>
+                <Packages>
+                  <Package Name="AIC" Version="1.1" />
+                  <Package Name="Motion" Version="1.18" />
+                  <Package Name="TSDB" Version="1.1" />
+                  <Package Name="WAC" Version="1.1" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>b3610ba4-76de-4a7e-834b-f1ddef7905ea</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\OMRON\Data\Lib\AI_PM_BeltPulley\OmronLib_AI_PM_BeltPulley_V1_1.slr</LibraryFilePath>
+              <LibraryFileRelativePath></LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>true</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+        <ReferredLibrary>
+          <data>
+            <LibraryModel>
+              <Name>OmronLib_AI_PM_Cylinder_V1_1</Name>
+              <NameSpace></NameSpace>
+              <Version>1.1.0</Version>
+              <Revision>1</Revision>
+              <LibraryId>3036cf72-42e5-4f10-b46c-d67ed0e1fa25</LibraryId>
+              <Author>OMRON Corporation</Author>
+              <Company>(c) OMRON Corporation 2018-2019. All Rights Reserved.</Company>
+              <DateCreated>2018-07-10T12:35:22.9066536+09:00</DateCreated>
+              <DateModified>2019-07-10T11:06:15.1452235+09:00</DateModified>
+              <Comment>This is the AI Predictive Maintenance Library (Cylinder).
+これはAI予知保全ライブラリ(シリンダ)です。</Comment>
+              <Password></Password>
+              <AttachedFiles />
+              <AttachedFilesRelativePaths />
+              <PublicPartsNames>
+                <PublicName>OmronLib\AI_PM_Cylinder_V1_1\CylinderStatus</PublicName>
+                <PublicName>OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode</PublicName>
+              </PublicPartsNames>
+              <InternalPartsNames>
+                <InternalName>OmronLib\AI_PM_Cylinder_V1_1\SubParts\CalcPushPullTime</InternalName>
+                <InternalName>OmronLib\AI_PM_Cylinder_V1_1\SubParts\CtrlOutputValue</InternalName>
+                <InternalName>OmronLib\AI_PM_Cylinder_V1_1\sSysmac_AIPM_CylinderStatus</InternalName>
+              </InternalPartsNames>
+              <BuildDevice>
+                <Category>Controller</Category>
+                <Family>Nex</Family>
+                <FullModel>NX701-Z600</FullModel>
+                <MajorVersion>1</MajorVersion>
+                <MinorVersion>18</MinorVersion>
+                <Revision>0</Revision>
+                <DisplayVersion>1.18</DisplayVersion>
+                <Packages>
+                  <Package Name="AIC" Version="1.1" />
+                  <Package Name="Motion" Version="1.18" />
+                  <Package Name="TSDB" Version="1.1" />
+                  <Package Name="WAC" Version="1.1" />
+                </Packages>
+              </BuildDevice>
+              <DependencyId>56eb3e06-8358-4652-93d7-d00d000eb419</DependencyId>
+              <IsSource>true</IsSource>
+              <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+              <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+              <LibraryFilePath>C:\OMRON\Data\Lib\AI_PM_Cylinder\OmronLib_AI_PM_Cylinder_V1_1.slr</LibraryFilePath>
+              <LibraryFileRelativePath></LibraryFileRelativePath>
+              <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+              <AsOldVer>false</AsOldVer>
+              <SchemaVersion>3</SchemaVersion>
+              <Parameter1>true</Parameter1>
+            </LibraryModel>
+          </data>
+        </ReferredLibrary>
+      </ReferredLibraries>
+      <BuildOption>
+        <data>
+          <LibraryModel>
+            <Name>アライメントデモ機_191111</Name>
+            <NameSpace></NameSpace>
+            <Version>1.0.0</Version>
+            <Revision>1</Revision>
+            <LibraryId>00000000-0000-0000-0000-000000000000</LibraryId>
+            <Author>OMRON Corporation</Author>
+            <Company></Company>
+            <DateCreated>2016-02-26T15:14:51.5117045+09:00</DateCreated>
+            <DateModified>2016-02-26T15:14:51.5117045+09:00</DateModified>
+            <Comment></Comment>
+            <Password></Password>
+            <AttachedFiles />
+            <AttachedFilesRelativePaths />
+            <PublicPartsNames />
+            <InternalPartsNames />
+            <BuildDevice>
+              <Category></Category>
+              <Family></Family>
+              <FullModel></FullModel>
+              <MajorVersion>0</MajorVersion>
+              <MinorVersion>0</MinorVersion>
+              <Revision>0</Revision>
+              <DisplayVersion></DisplayVersion>
+              <Packages />
+            </BuildDevice>
+            <DependencyId>00000000-0000-0000-0000-000000000000</DependencyId>
+            <IsSource>false</IsSource>
+            <IsDisableSourceDisplay>true</IsDisableSourceDisplay>
+            <IsIncludeReferredLibraries>false</IsIncludeReferredLibraries>
+            <LibraryFilePath></LibraryFilePath>
+            <LibraryFileRelativePath></LibraryFileRelativePath>
+            <LibrarySourceControlRelativeFilePath></LibrarySourceControlRelativeFilePath>
+            <AsOldVer>false</AsOldVer>
+            <SchemaVersion>0</SchemaVersion>
+            <Parameter1>false</Parameter1>
+          </LibraryModel>
+        </data>
+      </BuildOption>
+      <ExcludedParts />
+      <InternalParts />
+      <LibraryTrackingIdConversionTable>
+        <LibraryEntityTrackingId>00000000-0000-0000-0000-000000000000</LibraryEntityTrackingId>
+        <PartTrackingIds />
+      </LibraryTrackingIdConversionTable>
+      <AreLibrariesIncluded>true</AreLibrariesIncluded>
+      <IsLibraryIdsDifferenceNotified>false</IsLibraryIdsDifferenceNotified>
+    </ReferredLibrariesModel>
+  </data>
+</data>

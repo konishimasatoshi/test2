@@ -1,0 +1,48 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=wStatus	IV=0	G=VAR
+++D=UINT	N=ST_IDLE	IV=0	Const=1	G=VAR
+++D=UINT	N=ST_INIT	IV=1	Const=1	G=VAR
+++D=UINT	N=ST_ENBL	IV=2	Const=1	G=VAR
+++D=UINT	N=ST_FINALIZE	IV=3	Const=1	G=VAR
+++D=UINT	N=ST_COMPLETE	IV=4	Const=1	G=VAR
+++D=UINT	N=ST_ERR	IV=19	Const=1	G=VAR
+++D=UINT	N=wSubStatus	IV=1	G=VAR
+++D=UINT	N=STSUB_WATING	IV=1	Const=1	G=VAR
+++D=UINT	N=STSUB_MEASURING	IV=2	Const=1	G=VAR
+++D=WORD	N=cErrID	IV=16#3D16	Const=1	G=VAR
+++D=BOOL	N=wRepFlg	IV=False	G=VAR
+++D=DWORD	N=wErrIDEx	G=VAR
+++D=UINT	N=wFrameVar	G=VAR
+++D=BOOL	N=wSubFrameVar	G=VAR
+++D=LREAL	N=wPredictorVar1	G=VAR
+++D=OmronLib\AI_PM_BallScrew_V1_1\sMonitorMode	N=wMonitorMode	G=VAR
+++D=UDINT	N=wActiveNum	G=VAR
+++D=R_TRIG	N=Active_RTLG	G=VAR
+++D=F_TRIG	N=Active_FTRG	G=VAR
+++D=LREAL	N=ABS_ActVel	G=VAR
+++D=BOOL	N=Nan	G=VAR
+++D=BOOL	N=PosInfinite	G=VAR
+++D=BOOL	N=NegInfinite	G=VAR
+++D=BOOL	N=InitCValue	IV=False	G=VAR
+++D=LREAL	N=InfMini	IV=LREAL#0.0	G=VAR
+++D=BOOL	N=wFraudVelocity	G=VAR
+++D=LREAL	N=wMaxVelocity	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=_sAXIS_REF	N=Axis	Ord=0	Const=1	G=VAR_IN_OUT
+++D=BOOL	N=Enable	IV=False	Ord=1	G=VAR_INPUT
+++D=BOOL	N=ActiveInput	IV=False	Ord=2	G=VAR_INPUT
+++D=BOOL	N=AbortedInput	IV=False	Ord=3	G=VAR_INPUT
+++D=BOOL	N=ErrorInput	IV=False	Ord=4	G=VAR_INPUT
+++D=BOOL	N=ManualSubFrame	IV=False	Ord=5	G=VAR_INPUT
+++D=OmronLib\AI_PM_BallScrew_V1_1\sMonitorMode	N=MonitorMode	Ord=6	G=VAR_INPUT
+++D=BOOL	N=Enabled	Ord=7	G=VAR_OUTPUT
+++D=UINT	N=FrameVar	Ord=8	G=VAR_OUTPUT
+++D=BOOL	N=SubFrameVar	Ord=9	G=VAR_OUTPUT
+++D=OmronLib\AI_PM_BallScrew_V1_1\sSysmac_AIPM_BallScrewStatus	N=Sysmac_AIPM002_BallScrewStatus_VerXXYYY	Ord=10	G=VAR_OUTPUT
+++D=BOOL	N=Finalize	Ord=11	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=12	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=13	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=14	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

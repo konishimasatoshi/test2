@@ -1,0 +1,27 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR	GVT=DefaultGroup
+++D=UINT	N=FrameVar	G=VAR
+++D=BOOL	N=SubFrameVar	G=VAR
+++D=OmronLib\AI_PM_Cylinder_V1_1\sSysmac_AIPM_CylinderStatus	N=Sysmac_AIPM001_CylinderStatus_Ver01001	G=VAR
+++D=ULINT	N=CurCount	G=VAR
+++D=OmronLib\AI_PM_Cylinder_V1_1\SubParts\CalcPushPullTime	N=CalcPushPullTime_inst	G=VAR
+++D=OmronLib\AI_PM_Cylinder_V1_1\SubParts\CtrlOutputValue	N=CtrlOutValue_inst	G=VAR
+++D=UINT	N=FEOutFrame	Ord=9	G=VAR
+++D=UINT	N=MLEOutFrame	Ord=9	G=VAR
++GN=VAR_INPUT	GA=InputOutput	GVT=EdgeInputOutputGroup
+++D=BOOL	N=Enable	IV=False	Ord=0	G=VAR_INPUT
+++D=BOOL	N=Active	IV=False	Ord=1	G=VAR_INPUT
+++D=BOOL	N=Pull	IV=False	Ord=2	G=VAR_INPUT
+++D=BOOL	N=Push	IV=False	Ord=3	G=VAR_INPUT
+++D=BOOL	N=FullyRetractedPos	IV=False	Ord=4	G=VAR_INPUT
+++D=BOOL	N=FullyExtendedPos	IV=False	Ord=5	G=VAR_INPUT
+++D=BOOL	N=ManualSubFrame	IV=False	Ord=6	G=VAR_INPUT
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=MonitorMode	Ord=7	G=VAR_INPUT
+++D=UINT	N=Timeout	IV=100	Ord=8	G=VAR_INPUT
+++D=BOOL	N=Enabled	Ord=9	G=VAR_OUTPUT
+++D=BOOL	N=MonitorStatus	Ord=10	G=VAR_OUTPUT
+++D=BOOL	N=Error	Ord=11	G=VAR_OUTPUT
+++D=WORD	N=ErrorID	Ord=12	G=VAR_OUTPUT
+++D=DWORD	N=ErrorIDEx	Ord=13	G=VAR_OUTPUT
++GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup

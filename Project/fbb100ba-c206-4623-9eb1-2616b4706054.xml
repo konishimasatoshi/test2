@@ -1,0 +1,23 @@
+[SLWD version=1.0]
+_EN=Variables
++GN=VAR_GLOBAL	GVT=GlobalNamespaceGroup
+++D=BOOL	N=IN_AirCylinder01_FullyExtended	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 00	G=VAR_GLOBAL	Com=エアシリンダ01伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder01_FullyRetracted	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 01	G=VAR_GLOBAL	Com=エアシリンダ01縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=OUT_AirCylinder01_FullyExtend	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 00	G=VAR_GLOBAL	Com=エアシリンダ01伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder01_FullyRetract	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 01	G=VAR_GLOBAL	Com=エアシリンダ01縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=AirCylinder01_Enable	G=VAR_GLOBAL	Com=エアシリンダ01有効$tエアシリンダ01有効
+++D=BOOL	N=AirCylinder01_CycleStart	G=VAR_GLOBAL	Com=エアシリンダ01動作開始$tエアシリンダ01動作開始
+++D=BOOL	N=AirCylinder01_CycleStop	G=VAR_GLOBAL	Com=エアシリンダ01動作停止$tエアシリンダ01動作開始
+++D=BOOL	N=AirCylinder01_CycleOperating	G=VAR_GLOBAL	Com=エアシリンダ01動作中$tエアシリンダ01動作開始
+++D=BOOL	N=AirCylinder01_Active	IV=True	G=VAR_GLOBAL	Com=エアシリンダ01監視対象$tエアシリンダ01監視対象
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=AirCylinder01_MonitorMode	R=1	IV=(CylinderType := 0, SubFrameMode := False, StartTimer := 0, StopMonitorTimer := 0)	G=VAR_GLOBAL	Com=エアシリンダ01監視モード$tエアシリンダ01監視モード
+++D=UINT	N=AirCylinder01_TimeOut	R=1	IV=100	G=VAR_GLOBAL	Com=エアシリンダ01計測タイムアウト時間$tエアシリンダ01計測タイムアウト時間[0.1s]
+++D=BOOL	N=AirCylinder01_MonitorStatus	G=VAR_GLOBAL	Com=エアシリンダ01監視中$tエアシリンダ01監視中
+++D=BOOL	N=AirCylinder01_StatusEnabled	G=VAR_GLOBAL	Com=エアシリンダ01実行中$tエアシリンダ01実行中
+++D=BOOL	N=AirCylinder01_StatusError	G=VAR_GLOBAL	Com=エアシリンダ01実行エラー$tエアシリンダ01エラー
+++D=WORD	N=AirCylinder01_StatusErrorID	G=VAR_GLOBAL	Com=エアシリンダ01実行エラーコード$tエアシリンダ01エラーコード
+++D=DWORD	N=AirCylinder01_StatusErrorIDEx	G=VAR_GLOBAL	Com=エアシリンダ01実行拡張エラーコード$tエアシリンダ01拡張エラーコード
+++D=sTSDB_CMD	N=TSDB_Cmd	G=VAR_GLOBAL	Com=TSDB$t時系列DB指示
+++D=sAI_FUNC_CMD	N=FE_Cmd	G=VAR_GLOBAL	Com=特徴量抽出$t特徴抽出指示
+++D=sAI_FUNC_CMD	N=MLE_Cmd	G=VAR_GLOBAL	Com=機械学習$t機械学習指示
+++D=ARRAY[0..31] OF BOOL	N=TSDB_CreateCmd	G=VAR_GLOBAL	Com=TSDB作成指示

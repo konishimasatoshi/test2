@@ -1,0 +1,7 @@
+<StructuredTextModel i:type="a:string" xmlns="http://schemas.datacontract.org/2004/07/Omron.Cxap.Modules.StructuredText.Core" xmlns:a="http://www.w3.org/2001/XMLSchema" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">&lt;?xml version="1.0" encoding="utf-16"?&gt;&#xD;
+&lt;EncryptedFile&gt;&#xD;
+  &lt;EncryptionLock&gt;JXKU48763/70I0DLQLL-------------&lt;/EncryptionLock&gt;&#xD;
+  &lt;Unicode&gt;Utf8&lt;/Unicode&gt;&#xD;
+  &lt;Body&gt;1qZ43y5w4VPjqt0GTjR4Bd4XeRPGjQ7rYtqGzczv2tfDMY/QRPxF6V/aiA/2/4/VFMkwb8Ke0xSXdoE6dj5XzBjCx/LMmQLsGqTaCSy8D48vXsSQ1unSKVh0hq/FmL8D4RY9vMhS3wQBTsvyPkJ5KPJJyPWKVQEdCyJDu51jYrd2QVPUYz06NF5qlcXHwROjqGc4h7ODl2UGAM9DObJ1gN6wAuJjPoJs72uOoJnDGeAVSbl4dIMQfr5w1e1ejJYPJG8SE2YacvQnW9kLmjaXQSDCP3V7QH8iZy2us0VDf1HMjd/Q1XuGv8RXESKrLqe2grnIKE3R2DHlh/KjvnzIWLxwNGztyc7YWXt2vUeA5WuzeCjIJKu7nGJptyvnAihyvqvqzpTI+Bn26P01U7e9aQ==&lt;/Body&gt;&#xD;
+  &lt;Checksum&gt;521499527&lt;/Checksum&gt;&#xD;
+&lt;/EncryptedFile&gt;</StructuredTextModel>
