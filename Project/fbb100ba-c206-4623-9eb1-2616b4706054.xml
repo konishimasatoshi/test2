@@ -1,10 +1,70 @@
 [SLWD version=1.0]
 _EN=Variables
 +GN=VAR_GLOBAL	GVT=GlobalNamespaceGroup
-++D=BOOL	N=IN_AirCylinder01_FullyExtended	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 00	G=VAR_GLOBAL	Com=エアシリンダ01伸び端入力$tエアシリンダ01伸び端
-++D=BOOL	N=IN_AirCylinder01_FullyRetracted	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 01	G=VAR_GLOBAL	Com=エアシリンダ01縮み端入力$tエアシリンダ01縮み端
-++D=BOOL	N=OUT_AirCylinder01_FullyExtend	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 00	G=VAR_GLOBAL	Com=エアシリンダ01伸び指示出力$tエアシリンダ01伸び端指示
-++D=BOOL	N=OUT_AirCylinder01_FullyRetract	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 01	G=VAR_GLOBAL	Com=エアシリンダ01縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=IN_AirCylinder01_FullyRetracted	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 00	G=VAR_GLOBAL	Com=エアシリンダ01縮み端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder02_FullyRetracted	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 02	G=VAR_GLOBAL	Com=エアシリンダ02縮み端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder03_FullyRetracted	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 04	G=VAR_GLOBAL	Com=エアシリンダ03縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder04_FullyRetracted	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 06	G=VAR_GLOBAL	Com=エアシリンダ04縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder05_FullyRetracted	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 08	G=VAR_GLOBAL	Com=エアシリンダ05縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder06_FullyRetracted	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 10	G=VAR_GLOBAL	Com=エアシリンダ06縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder07_FullyRetracted	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 12	G=VAR_GLOBAL	Com=エアシリンダ07縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder08_FullyRetracted	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 14	G=VAR_GLOBAL	Com=エアシリンダ08縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder09_FullyRetracted	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 00	G=VAR_GLOBAL	Com=エアシリンダ09縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder10_FullyRetracted	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 02	G=VAR_GLOBAL	Com=エアシリンダ10縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder11_FullyRetracted	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 04	G=VAR_GLOBAL	Com=エアシリンダ11縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder12_FullyRetracted	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 06	G=VAR_GLOBAL	Com=エアシリンダ12縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder13_FullyRetracted	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 08	G=VAR_GLOBAL	Com=エアシリンダ13縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder14_FullyRetracted	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 10	G=VAR_GLOBAL	Com=エアシリンダ14縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder15_FullyRetracted	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 12	G=VAR_GLOBAL	Com=エアシリンダ15縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder16_FullyRetracted	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 14	G=VAR_GLOBAL	Com=エアシリンダ16縮み端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder01_FullyExtended	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 01	G=VAR_GLOBAL	Com=エアシリンダ01伸び端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder02_FullyExtended	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 03	G=VAR_GLOBAL	Com=エアシリンダ02伸び端入力$tエアシリンダ01縮み端
+++D=BOOL	N=IN_AirCylinder03_FullyExtended	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 05	G=VAR_GLOBAL	Com=エアシリンダ03伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder04_FullyExtended	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 07	G=VAR_GLOBAL	Com=エアシリンダ04伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder05_FullyExtended	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 09	G=VAR_GLOBAL	Com=エアシリンダ05伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder06_FullyExtended	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 11	G=VAR_GLOBAL	Com=エアシリンダ06伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder07_FullyExtended	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 13	G=VAR_GLOBAL	Com=エアシリンダ07伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder08_FullyExtended	AT=ECAT://node#[1,1]/Input Bit 16 bits/Input Bit 15	G=VAR_GLOBAL	Com=エアシリンダ08伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder09_FullyExtended	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 01	G=VAR_GLOBAL	Com=エアシリンダ09伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder10_FullyExtended	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 03	G=VAR_GLOBAL	Com=エアシリンダ10伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder11_FullyExtended	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 05	G=VAR_GLOBAL	Com=エアシリンダ11伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder12_FullyExtended	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 07	G=VAR_GLOBAL	Com=エアシリンダ12伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder13_FullyExtended	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 09	G=VAR_GLOBAL	Com=エアシリンダ13伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder14_FullyExtended	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 11	G=VAR_GLOBAL	Com=エアシリンダ14伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder15_FullyExtended	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 13	G=VAR_GLOBAL	Com=エアシリンダ15伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=IN_AirCylinder16_FullyExtended	AT=ECAT://node#[1,2]/Input Bit 16 bits/Input Bit 15	G=VAR_GLOBAL	Com=エアシリンダ16伸び端入力$tエアシリンダ01伸び端
+++D=BOOL	N=OUT_AirCylinder01_FullyRetract	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 00	G=VAR_GLOBAL	Com=エアシリンダ01縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder02_FullyRetract	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 02	G=VAR_GLOBAL	Com=エアシリンダ02縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder03_FullyRetract	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 04	G=VAR_GLOBAL	Com=エアシリンダ03縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder04_FullyRetract	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 06	G=VAR_GLOBAL	Com=エアシリンダ04縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder05_FullyRetract	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 08	G=VAR_GLOBAL	Com=エアシリンダ05縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder06_FullyRetract	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 10	G=VAR_GLOBAL	Com=エアシリンダ06縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder07_FullyRetract	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 12	G=VAR_GLOBAL	Com=エアシリンダ07縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder08_FullyRetract	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 14	G=VAR_GLOBAL	Com=エアシリンダ08縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder09_FullyRetract	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 00	G=VAR_GLOBAL	Com=エアシリンダ09縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder10_FullyRetract	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 02	G=VAR_GLOBAL	Com=エアシリンダ10縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder11_FullyRetract	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 04	G=VAR_GLOBAL	Com=エアシリンダ11縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder12_FullyRetract	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 06	G=VAR_GLOBAL	Com=エアシリンダ12縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder13_FullyRetract	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 08	G=VAR_GLOBAL	Com=エアシリンダ13縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder14_FullyRetract	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 10	G=VAR_GLOBAL	Com=エアシリンダ14縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder15_FullyRetract	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 12	G=VAR_GLOBAL	Com=エアシリンダ15縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder16_FullyRetract	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 14	G=VAR_GLOBAL	Com=エアシリンダ16縮み指示出力$tエアシリンダ01縮み端指示
+++D=BOOL	N=OUT_AirCylinder01_FullyExtend	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 01	G=VAR_GLOBAL	Com=エアシリンダ01伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder02_FullyExtend	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 03	G=VAR_GLOBAL	Com=エアシリンダ02伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder03_FullyExtend	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 05	G=VAR_GLOBAL	Com=エアシリンダ03伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder04_FullyExtend	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 07	G=VAR_GLOBAL	Com=エアシリンダ04伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder05_FullyExtend	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 09	G=VAR_GLOBAL	Com=エアシリンダ05伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder06_FullyExtend	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 11	G=VAR_GLOBAL	Com=エアシリンダ06伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder07_FullyExtend	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 13	G=VAR_GLOBAL	Com=エアシリンダ07伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder08_FullyExtend	AT=ECAT://node#[1,3]/Output Bit 16 bits/Output Bit 15	G=VAR_GLOBAL	Com=エアシリンダ08伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder09_FullyExtend	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 01	G=VAR_GLOBAL	Com=エアシリンダ09伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder10_FullyExtend	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 03	G=VAR_GLOBAL	Com=エアシリンダ10伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder11_FullyExtend	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 05	G=VAR_GLOBAL	Com=エアシリンダ11伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder12_FullyExtend	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 07	G=VAR_GLOBAL	Com=エアシリンダ12伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder13_FullyExtend	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 09	G=VAR_GLOBAL	Com=エアシリンダ13伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder14_FullyExtend	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 11	G=VAR_GLOBAL	Com=エアシリンダ14伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder15_FullyExtend	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 13	G=VAR_GLOBAL	Com=エアシリンダ15伸び指示出力$tエアシリンダ01伸び端指示
+++D=BOOL	N=OUT_AirCylinder16_FullyExtend	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 15	G=VAR_GLOBAL	Com=エアシリンダ16伸び指示出力$tエアシリンダ01伸び端指示
 ++D=BOOL	N=AirCylinder01_Enable	G=VAR_GLOBAL	Com=エアシリンダ01有効$tエアシリンダ01有効
 ++D=BOOL	N=AirCylinder01_CycleStart	G=VAR_GLOBAL	Com=エアシリンダ01動作開始$tエアシリンダ01動作開始
 ++D=BOOL	N=AirCylinder01_CycleStop	G=VAR_GLOBAL	Com=エアシリンダ01動作停止$tエアシリンダ01動作開始

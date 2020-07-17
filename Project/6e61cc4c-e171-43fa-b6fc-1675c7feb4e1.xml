@@ -11,6 +11,7 @@ _EN=Variables
 ++D=BOOL	N=Waiting2	G=VAR	Com=縮み端ウェイト中
 ++D=TON	N=WaitTimer1	G=VAR	Com=伸び端ウェイトタイマ
 ++D=TON	N=WaitTimer2	G=VAR	Com=縮み端ウェイトタイマ
+++D=BOOL	N=AirCylinder02_Enable	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=OUT_AirCylinder01_FullyExtend	G=VAR_EXTERNAL
 ++D=BOOL	N=OUT_AirCylinder01_FullyRetract	G=VAR_EXTERNAL
@@ -20,3 +21,11 @@ _EN=Variables
 ++D=BOOL	N=AirCylinder01_CycleStart	G=VAR_EXTERNAL
 ++D=BOOL	N=AirCylinder01_CycleOperating	G=VAR_EXTERNAL
 ++D=BOOL	N=AirCylinder01_CycleStop	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder02_FullyExtend	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder03_FullyExtend	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder04_FullyExtend	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder05_FullyExtend	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder02_FullyRetract	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder03_FullyRetract	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder04_FullyRetract	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder05_FullyRetract	G=VAR_EXTERNAL

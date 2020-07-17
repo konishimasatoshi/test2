@@ -35,64 +35,6 @@
       <DefaultValue>s</DefaultValue>
       <Options />
     </NexCpuActionRunModeDelayTimeValue2>
-    <NexCpuActionShutdownWaitTimeUserPrg>
-      <CurrentValue>5</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>5</DefaultValue>
-      <Options />
-    </NexCpuActionShutdownWaitTimeUserPrg>
-    <NexCpuActionSetting.CommandErrorOutput>
-      <CurrentValue>EnumElement1</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>EnumElement1</DefaultValue>
-      <Options>
-        <Option>EnumElement1</Option>
-        <Option>EnumElement2</Option>
-      </Options>
-    </NexCpuActionSetting.CommandErrorOutput>
-    <NexCpuActionProtectAtPowerOn>
-      <CurrentValue>EnumElement1</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>EnumElement1</DefaultValue>
-      <Options>
-        <Option>EnumElement1</Option>
-        <Option>EnumElement2</Option>
-      </Options>
-    </NexCpuActionProtectAtPowerOn>
-    <NexCpuActionProhibitSDBackup>
-      <CurrentValue>EnumElement1</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>EnumElement1</DefaultValue>
-      <Options>
-        <Option>EnumElement1</Option>
-        <Option>EnumElement2</Option>
-      </Options>
-    </NexCpuActionProhibitSDBackup>
-    <NexCpuActionShutdownWaitTimeUserPrgValue2>
-      <CurrentValue>s</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>s</DefaultValue>
-      <Options />
-    </NexCpuActionShutdownWaitTimeUserPrgValue2>
-    <NexCpuActionShutdownWaitTimeWindows>
-      <CurrentValue>60</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>60</DefaultValue>
-      <Options />
-    </NexCpuActionShutdownWaitTimeWindows>
-    <NexCpuActionShutdownWaitTimeWindowsValue2>
-      <CurrentValue>s</CurrentValue>
-      <IsEnabled>true</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>s</DefaultValue>
-      <Options />
-    </NexCpuActionShutdownWaitTimeWindowsValue2>
     <NexCpuActionSharedFolder>
       <CurrentValue>EnumElement1</CurrentValue>
       <IsEnabled>true</IsEnabled>
@@ -103,13 +45,6 @@
         <Option>EnumElement2</Option>
       </Options>
     </NexCpuActionSharedFolder>
-    <NexCpuActionSharedFolderIPAddress>
-      <CurrentValue>192.168.254.2</CurrentValue>
-      <IsEnabled>false</IsEnabled>
-      <IsVisible>true</IsVisible>
-      <DefaultValue>192.168.254.2</DefaultValue>
-      <Options />
-    </NexCpuActionSharedFolderIPAddress>
     <NexCpuActionSharedFolderComputerName>
       <CurrentValue></CurrentValue>
       <IsEnabled>false</IsEnabled>
@@ -124,6 +59,13 @@
       <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
       <Options />
     </NexCpuActionSharedFolderComputerNameValue2>
+    <NexCpuActionSharedFolderIPAddress>
+      <CurrentValue>192.168.254.2</CurrentValue>
+      <IsEnabled>false</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>192.168.254.2</DefaultValue>
+      <Options />
+    </NexCpuActionSharedFolderIPAddress>
     <NexCpuActionSharedFolderName>
       <CurrentValue>VirtualSDCard</CurrentValue>
       <IsEnabled>false</IsEnabled>
@@ -166,6 +108,64 @@
       <DefaultValue>NexCpuActionEmptyUnit</DefaultValue>
       <Options />
     </NexCpuActionSharedFolderPasswordValue2>
+    <NexCpuActionShutdownWaitTimeUserPrg>
+      <CurrentValue>5</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>5</DefaultValue>
+      <Options />
+    </NexCpuActionShutdownWaitTimeUserPrg>
+    <NexCpuActionShutdownWaitTimeUserPrgValue2>
+      <CurrentValue>s</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>s</DefaultValue>
+      <Options />
+    </NexCpuActionShutdownWaitTimeUserPrgValue2>
+    <NexCpuActionShutdownWaitTimeWindows>
+      <CurrentValue>60</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>60</DefaultValue>
+      <Options />
+    </NexCpuActionShutdownWaitTimeWindows>
+    <NexCpuActionShutdownWaitTimeWindowsValue2>
+      <CurrentValue>s</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>s</DefaultValue>
+      <Options />
+    </NexCpuActionShutdownWaitTimeWindowsValue2>
+    <NexCpuActionSetting.CommandErrorOutput>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionSetting.CommandErrorOutput>
+    <NexCpuActionProtectAtPowerOn>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionProtectAtPowerOn>
+    <NexCpuActionProhibitSDBackup>
+      <CurrentValue>EnumElement1</CurrentValue>
+      <IsEnabled>true</IsEnabled>
+      <IsVisible>true</IsVisible>
+      <DefaultValue>EnumElement1</DefaultValue>
+      <Options>
+        <Option>EnumElement1</Option>
+        <Option>EnumElement2</Option>
+      </Options>
+    </NexCpuActionProhibitSDBackup>
   </NexCpuActionGeneral>
   <NexCpuLevelSetting>
     <NexCpuLevelSettingTable>

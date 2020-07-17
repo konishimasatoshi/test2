@@ -27,7 +27,7 @@
       </Options>
     </NexCpuEipTcpIpIPAddressSettingEtherNetIPSettingOptions>
     <NexCpuEipTcpIpIPAddressSettingEtherNetIPIPAddress>
-      <CurrentValue>192.168.1.140</CurrentValue>
+      <CurrentValue>192.168.250.1</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>192.168.250.1</DefaultValue>
@@ -243,7 +243,7 @@
       <Options />
     </NexCpuEipPassFrameTableTableItemMaximumCount>
     <NexCpuEipPassFrameTableTableItemCount>
-      <CurrentValue>0</CurrentValue>
+      <CurrentValue>1</CurrentValue>
       <IsEnabled>true</IsEnabled>
       <IsVisible>true</IsVisible>
       <DefaultValue>0</DefaultValue>
