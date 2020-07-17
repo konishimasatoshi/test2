@@ -5,6 +5,12 @@ _EN=Variables
 ++D=BOOL	N=wk_TSDB_CmdExe	G=VAR	Com=TSDBサービスコマンド実行$t時系列DBコマンド実行
 ++D=INT	N=wk_TSDBCmd	G=VAR	Com=TSDBサービスコマンド$t時系列DBコマンド
 ++D=TimeSeries_ControlService	N=FB_TimeSeries_ControlService	G=VAR
+++D=BOOL	N=TSDB_end_Flag	G=VAR
+++D=BOOL	N=RAW_Flag	G=VAR
+++D=BOOL	N=ANL_Flag	G=VAR
+++D=BOOL	N=FTR_Flag	IV=True	G=VAR
+++D=BOOL	N=AIS_Flag	IV=True	G=VAR
+++D=BOOL	N=TSDB_start_Flag	IV=True	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=_FE_Enable	G=VAR_EXTERNAL
 ++D=BOOL	N=_MLE_Enable	G=VAR_EXTERNAL

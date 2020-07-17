@@ -65,7 +65,7 @@ _EN=Variables
 ++D=BOOL	N=OUT_AirCylinder14_FullyExtend	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 11	G=VAR_GLOBAL	Com=エアシリンダ14伸び指示出力$tエアシリンダ01伸び端指示
 ++D=BOOL	N=OUT_AirCylinder15_FullyExtend	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 13	G=VAR_GLOBAL	Com=エアシリンダ15伸び指示出力$tエアシリンダ01伸び端指示
 ++D=BOOL	N=OUT_AirCylinder16_FullyExtend	AT=ECAT://node#[1,4]/Output Bit 16 bits/Output Bit 15	G=VAR_GLOBAL	Com=エアシリンダ16伸び指示出力$tエアシリンダ01伸び端指示
-++D=BOOL	N=AirCylinder01_Enable	G=VAR_GLOBAL	Com=エアシリンダ01有効$tエアシリンダ01有効
+++D=BOOL	N=AirCylinder01_Enable	IV=True	G=VAR_GLOBAL	Com=エアシリンダ01有効$tエアシリンダ01有効
 ++D=BOOL	N=AirCylinder01_CycleStart	G=VAR_GLOBAL	Com=エアシリンダ01動作開始$tエアシリンダ01動作開始
 ++D=BOOL	N=AirCylinder01_CycleStop	G=VAR_GLOBAL	Com=エアシリンダ01動作停止$tエアシリンダ01動作開始
 ++D=BOOL	N=AirCylinder01_CycleOperating	G=VAR_GLOBAL	Com=エアシリンダ01動作中$tエアシリンダ01動作開始
