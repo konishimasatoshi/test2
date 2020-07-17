@@ -71,6 +71,10 @@ _EN=Variables
 ++D=BOOL	N=AirCylinder01_CycleOperating	G=VAR_GLOBAL	Com=エアシリンダ01動作中$tエアシリンダ01動作開始
 ++D=BOOL	N=AirCylinder01_Active	IV=True	G=VAR_GLOBAL	Com=エアシリンダ01監視対象$tエアシリンダ01監視対象
 ++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=AirCylinder01_MonitorMode	R=1	IV=(CylinderType := 0, SubFrameMode := False, StartTimer := 0, StopMonitorTimer := 0)	G=VAR_GLOBAL	Com=エアシリンダ01監視モード$tエアシリンダ01監視モード
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=AirCylinder02_MonitorMode	R=1	IV=(CylinderType := 0, SubFrameMode := False, StartTimer := 0, StopMonitorTimer := 0)	G=VAR_GLOBAL	Com=エアシリンダ01監視モード$tエアシリンダ01監視モード
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=AirCylinder03_MonitorMode	R=1	IV=(CylinderType := 0, SubFrameMode := False, StartTimer := 0, StopMonitorTimer := 0)	G=VAR_GLOBAL	Com=エアシリンダ01監視モード$tエアシリンダ01監視モード
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=AirCylinder04_MonitorMode	R=1	IV=(CylinderType := 0, SubFrameMode := False, StartTimer := 0, StopMonitorTimer := 0)	G=VAR_GLOBAL	Com=エアシリンダ01監視モード$tエアシリンダ01監視モード
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=AirCylinder05_MonitorMode	R=1	IV=(CylinderType := 0, SubFrameMode := False, StartTimer := 0, StopMonitorTimer := 0)	G=VAR_GLOBAL	Com=エアシリンダ01監視モード$tエアシリンダ01監視モード
 ++D=UINT	N=AirCylinder01_TimeOut	R=1	IV=100	G=VAR_GLOBAL	Com=エアシリンダ01計測タイムアウト時間$tエアシリンダ01計測タイムアウト時間[0.1s]
 ++D=BOOL	N=AirCylinder01_MonitorStatus	G=VAR_GLOBAL	Com=エアシリンダ01監視中$tエアシリンダ01監視中
 ++D=BOOL	N=AirCylinder01_StatusEnabled	G=VAR_GLOBAL	Com=エアシリンダ01実行中$tエアシリンダ01実行中

@@ -11,6 +11,34 @@ _EN=Variables
 ++D=BOOL	N=FTR_Flag	IV=True	G=VAR
 ++D=BOOL	N=AIS_Flag	IV=True	G=VAR
 ++D=BOOL	N=TSDB_start_Flag	IV=True	G=VAR
+++D=OmronLib\AI_PM_Cylinder_V1_1\CylinderStatus	N=AirCylinder02_StatusFB	G=VAR
+++D=BOOL	N=AirCylinder02_Active	IV=True	G=VAR
+++D=UINT	N=AirCylinder02_TimeOut	IV=100	G=VAR
+++D=BOOL	N=AirCylinder02_MonitorStatus	G=VAR
+++D=BOOL	N=AirCylinder02_StatusError	G=VAR
+++D=WORD	N=AirCylinder02_StatusErrorID	G=VAR
+++D=DWORD	N=AirCylinder02_StatusErrorIDEx	G=VAR
+++D=OmronLib\AI_PM_Cylinder_V1_1\CylinderStatus	N=AirCylinder03_StatusFB	G=VAR
+++D=BOOL	N=AirCylinder03_Active	IV=True	G=VAR
+++D=UINT	N=AirCylinder03_TimeOut	IV=100	G=VAR
+++D=BOOL	N=AirCylinder03_MonitorStatus	G=VAR
+++D=BOOL	N=AirCylinder03_StatusError	G=VAR
+++D=DWORD	N=AirCylinder03_StatusErrorIDEx	G=VAR
+++D=WORD	N=AirCylinder03_StatusErrorID	G=VAR
+++D=OmronLib\AI_PM_Cylinder_V1_1\CylinderStatus	N=AirCylinder04_StatusFB	G=VAR
+++D=BOOL	N=AirCylinder04_Active	IV=True	G=VAR
+++D=UINT	N=AirCylinder04_TimeOut	IV=100	G=VAR
+++D=BOOL	N=AirCylinder04_StatusError	G=VAR
+++D=WORD	N=AirCylinder04_StatusErrorID	G=VAR
+++D=DWORD	N=AirCylinder04_StatusErrorIDEx	G=VAR
+++D=BOOL	N=AirCylinder04_MonitorStatus	G=VAR
+++D=OmronLib\AI_PM_Cylinder_V1_1\CylinderStatus	N=AirCylinder05_StatusFB	G=VAR
+++D=BOOL	N=AirCylinder05_Active	IV=True	G=VAR
+++D=UINT	N=AirCylinder05_TimeOut	IV=100	G=VAR
+++D=BOOL	N=AirCylinder05_MonitorStatus	G=VAR
+++D=BOOL	N=AirCylinder05_StatusError	G=VAR
+++D=WORD	N=AirCylinder05_StatusErrorID	G=VAR
+++D=DWORD	N=AirCylinder05_StatusErrorIDEx	G=VAR
 +GN=VAR_EXTERNAL	GA=External	GVT=ExternalGroup
 ++D=BOOL	N=_FE_Enable	G=VAR_EXTERNAL
 ++D=BOOL	N=_MLE_Enable	G=VAR_EXTERNAL
@@ -34,3 +62,23 @@ _EN=Variables
 ++D=sAI_FUNC_CMD	N=FE_Cmd	G=VAR_EXTERNAL
 ++D=sAI_FUNC_CMD	N=MLE_Cmd	G=VAR_EXTERNAL
 ++D=BOOL	N=AirCylinder01_CycleOperating	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder02_FullyRetract	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder02_FullyExtend	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder02_FullyRetracted	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder02_FullyExtended	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder03_FullyRetract	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder03_FullyExtend	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder03_FullyRetracted	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder03_FullyExtended	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder04_FullyRetract	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder04_FullyExtend	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder04_FullyRetracted	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder04_FullyExtended	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder05_FullyRetract	G=VAR_EXTERNAL
+++D=BOOL	N=OUT_AirCylinder05_FullyExtend	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder05_FullyRetracted	G=VAR_EXTERNAL
+++D=BOOL	N=IN_AirCylinder05_FullyExtended	G=VAR_EXTERNAL
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=AirCylinder02_MonitorMode	G=VAR_EXTERNAL
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=AirCylinder03_MonitorMode	G=VAR_EXTERNAL
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=AirCylinder04_MonitorMode	G=VAR_EXTERNAL
+++D=OmronLib\AI_PM_Cylinder_V1_1\sMonitorMode	N=AirCylinder05_MonitorMode	G=VAR_EXTERNAL
